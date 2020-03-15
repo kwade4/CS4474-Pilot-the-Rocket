@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "3e6b089b-1f50-42ca-972b-512b09ff4756",
+            "Value": {
+                "id": "c3e88f00-a101-47bb-9a04-82ba3a1f324b",
+                "resourcePath": "sprites\\sTitle\\sTitle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41bcc12e-9912-4c76-8d55-26eaeb305951",
             "Value": {
                 "id": "d645f7ec-b439-489f-9f9e-161747b046c3",
@@ -63,11 +71,35 @@
             }
         },
         {
+            "Key": "433878c5-e242-4205-a151-7588f62b2226",
+            "Value": {
+                "id": "4a24ec31-fad9-4f09-8e62-b3145d16bebd",
+                "resourcePath": "fonts\\fLevelSelect\\fLevelSelect.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "462468be-5fe1-4324-a36b-9636be839909",
+            "Value": {
+                "id": "d354805f-e6ae-4d0e-8c68-b67ad858f9e7",
+                "resourcePath": "objects\\oRadioButton\\oRadioButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48bee5d1-d1f1-4250-8529-342c6634c06b",
             "Value": {
                 "id": "8d9f3aaf-1447-4b81-9806-4a6028efb2f5",
                 "resourcePath": "views\\48bee5d1-d1f1-4250-8529-342c6634c06b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a58b9fd-2e4b-4003-a2e2-1865fbe200fc",
+            "Value": {
+                "id": "cbd3543b-9c97-4dfa-a261-fb20ff6d4733",
+                "resourcePath": "sprites\\sRadioButton\\sRadioButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -82,7 +114,7 @@
             "Key": "6c714d9e-b6cd-4dc1-b5d5-4e3d137b3cf9",
             "Value": {
                 "id": "61e68f72-f173-453f-a8b1-093392486cb4",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\start\\start.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -127,6 +159,14 @@
             }
         },
         {
+            "Key": "c67eb277-8459-4cb8-bb49-62de4a4cc489",
+            "Value": {
+                "id": "66722e9a-f06b-41ce-aa9c-629343a8a869",
+                "resourcePath": "sprites\\sStartButton\\sStartButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c89caa05-5e85-44cb-9d97-72c73d4a9d25",
             "Value": {
                 "id": "789ec107-6f74-4a98-874c-ae9330c7be29",
@@ -143,11 +183,35 @@
             }
         },
         {
+            "Key": "cff65772-26ac-4529-96c4-dbdb6e94fa35",
+            "Value": {
+                "id": "64435377-1dff-4856-8a86-0d1d3c9987a4",
+                "resourcePath": "objects\\oTitle\\oTitle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dee2a743-1c82-4b70-ad69-c601a1e1dbe0",
+            "Value": {
+                "id": "e811cf89-f45c-483b-8179-b60be43defd1",
+                "resourcePath": "sprites\\sBackground\\sBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e607aca2-7e50-45cf-bf3d-38472b571fab",
             "Value": {
                 "id": "f784c544-2c9e-45cb-869a-bef678d4f2ae",
                 "resourcePath": "views\\e607aca2-7e50-45cf-bf3d-38472b571fab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eb91e142-7a81-4b5b-a116-ff7215d2eed4",
+            "Value": {
+                "id": "badd550d-b9eb-4ea2-8bce-b58cf3d800fb",
+                "resourcePath": "objects\\oStartButton\\oStartButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -164,6 +228,14 @@
                 "id": "6236666b-fdda-446b-9615-c3f4a3c26c47",
                 "resourcePath": "views\\f37f3531-2f8e-44a2-b275-a9a0abc603b0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f78d5ed5-7d2f-4d79-9235-3c413f4ed9e2",
+            "Value": {
+                "id": "abcdc8cd-7c7c-4615-ab1b-abd6cdae2704",
+                "resourcePath": "objects\\oLevelDesc\\oLevelDesc.yy",
+                "resourceType": "GMObject"
             }
         },
         {
