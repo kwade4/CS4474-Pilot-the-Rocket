@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4823ccc0-2a14-4d99-9bde-488b38df177d",
+            "Value": {
+                "id": "ea7eb58c-7a5b-49ec-b846-9155109e364c",
+                "resourcePath": "sprites\\s_saturn\\s_saturn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "48bee5d1-d1f1-4250-8529-342c6634c06b",
             "Value": {
                 "id": "8d9f3aaf-1447-4b81-9806-4a6028efb2f5",
@@ -132,6 +140,14 @@
                 "id": "cbd3543b-9c97-4dfa-a261-fb20ff6d4733",
                 "resourcePath": "sprites\\sRadioButton\\sRadioButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "58036a50-6323-4ab2-ba84-80ce8845ff37",
+            "Value": {
+                "id": "d756fcc4-19f4-4c52-8ee5-04406b2a8537",
+                "resourcePath": "objects\\oSun\\oSun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -175,11 +191,27 @@
             }
         },
         {
+            "Key": "8eb6bc47-ace9-472b-bb4b-cefc99e76c41",
+            "Value": {
+                "id": "a26c757b-043c-477b-a5b6-2ae080b2e2f8",
+                "resourcePath": "sprites\\sSun\\sSun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a231b3fb-19aa-4b5f-bfac-d530fbb44f25",
             "Value": {
                 "id": "3d687036-2f3e-4e33-bfa8-8adcc7c06dcf",
                 "resourcePath": "views\/a231b3fb-19aa-4b5f-bfac-d530fbb44f25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b3e7d661-3857-42d5-aa80-efa0ca98c1bd",
+            "Value": {
+                "id": "fd09cacd-b454-4d25-ac56-20ded08f7406",
+                "resourcePath": "rooms\\rMenu\\rMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -252,6 +284,14 @@
                 "id": "e811cf89-f45c-483b-8179-b60be43defd1",
                 "resourcePath": "sprites\\sBackground\\sBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df43c536-0b95-4f33-a3e6-d8459d762e42",
+            "Value": {
+                "id": "d4666a97-6c0d-4887-ae42-e5853e84bcfd",
+                "resourcePath": "objects\\oPlanet\\oPlanet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
