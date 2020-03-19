@@ -11,6 +11,16 @@ global.levels[6] = 0;	//saturn
 global.levels[7] = 0;	//uranus
 global.levels[8] = 0;	//neptune
 
+//rooms
+global.rooms[1] = rEarth;
+global.rooms[2] = rMercury;
+global.rooms[3] = rVenus;
+global.rooms[4] = rMars;
+global.rooms[5] = rJupiter;
+global.rooms[6] = rSaturn;
+global.rooms[7] = rUranus;
+global.rooms[8] = rNeptune;
+
 easyButton = instance_create_depth(600, 300, 0, oRadioButton);
 easyButton.label = "easy";
 easyButton.selected = true;

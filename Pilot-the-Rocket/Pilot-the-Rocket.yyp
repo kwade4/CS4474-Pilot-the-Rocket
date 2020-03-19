@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0c3731c3-4a97-4e83-97d2-a8d69661f3fa",
+            "Value": {
+                "id": "25fbaecc-cc0d-4df5-9951-06b19933ee90",
+                "resourcePath": "rooms\\rEarth\\rEarth.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "17009b7f-8c31-401d-bfbc-0b75b2e87819",
             "Value": {
                 "id": "f7ebe074-a25f-40e7-9eea-374b866b2b9e",
@@ -68,6 +76,14 @@
                 "id": "afc25c0a-d62e-4835-9408-82da9929b299",
                 "resourcePath": "views\/34f9432c-4a0d-4bb4-83a2-9e0d221aaa23.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a5e2459-a4f6-4489-9ade-257f5d6215a8",
+            "Value": {
+                "id": "c4c3caa3-ab98-444e-9d94-72aff5c0d272",
+                "resourcePath": "rooms\\rNeptune\\rNeptune.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -143,11 +159,35 @@
             }
         },
         {
+            "Key": "4f47c4ad-e518-4b93-81ac-1be7c94e958b",
+            "Value": {
+                "id": "1d8b3b0e-71ed-4237-b8d4-1ee9194436d0",
+                "resourcePath": "rooms\\rVenus\\rVenus.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "58036a50-6323-4ab2-ba84-80ce8845ff37",
             "Value": {
                 "id": "d756fcc4-19f4-4c52-8ee5-04406b2a8537",
                 "resourcePath": "objects\\oSun\\oSun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5a3a508f-99e2-40b7-99cf-017b8d6aba97",
+            "Value": {
+                "id": "caed2689-fb72-4f5b-9cff-dc43218c887f",
+                "resourcePath": "rooms\\rUranus\\rUranus.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5c486593-65de-45ed-a7e8-7a4f409321fd",
+            "Value": {
+                "id": "67966963-781e-4f23-b82c-544d2804fcc0",
+                "resourcePath": "rooms\\rMercury\\rMercury.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -239,6 +279,22 @@
             }
         },
         {
+            "Key": "c2cdf7db-3569-4400-badf-c23cf4295e3a",
+            "Value": {
+                "id": "e489727e-00c1-447f-9a9d-5a82cc7c8c9b",
+                "resourcePath": "rooms\\rSaturn\\rSaturn.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c5ed7036-4d27-4144-a197-eeb03494834b",
+            "Value": {
+                "id": "66340e4b-83de-4d43-884d-3825cf508596",
+                "resourcePath": "rooms\\rMars\\rMars.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c67eb277-8459-4cb8-bb49-62de4a4cc489",
             "Value": {
                 "id": "66722e9a-f06b-41ce-aa9c-629343a8a869",
@@ -260,6 +316,14 @@
                 "id": "fc1adfea-33e7-4d93-83f2-c844ca08aa0f",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf90637f-c3c0-487e-8e9d-16454d6efe6d",
+            "Value": {
+                "id": "0b1c59c2-e6f0-4b6f-8ceb-cecd43724dae",
+                "resourcePath": "rooms\\rJupiter\\rJupiter.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
