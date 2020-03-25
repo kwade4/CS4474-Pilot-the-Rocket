@@ -18,10 +18,10 @@ y += y_speed;
 
 
 // Decrease the amount of fuel when a thruster is pressed 
-with (fuel_amt) {	
+with (fuel) {	
 	if (left_key || right_key) {
-		fuel_amt -= 1;
-		mass = 100 + fuel_amt;
+		fuel -= 1;
+		mass = 100 + fuel;
 	}
 }
 
