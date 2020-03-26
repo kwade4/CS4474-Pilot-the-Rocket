@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "26952f4d-407c-4b6b-a286-016a5800ab02",
+            "Value": {
+                "id": "7828a842-fc42-459b-bc29-989ec9fe5c08",
+                "resourcePath": "objects\\oFuelArrow\\oFuelArrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
@@ -247,18 +255,18 @@
             }
         },
         {
-            "Key": "8eb6bc47-ace9-472b-bb4b-cefc99e76c41",
-            "Value": {
-                "id": "a26c757b-043c-477b-a5b6-2ae080b2e2f8",
-                "resourcePath": "sprites\\sSun\\sSun.yy",
-				"resourceType": "GMSprite"
-			}
-		},
-		{
             "Key": "8a27866f-b81d-497c-96a1-0d2678e6e02b",
             "Value": {
                 "id": "5bf8fc55-04be-4f4f-8416-9f2788ee537c",
                 "resourcePath": "sprites\\s_altitude\\s_altitude.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8eb6bc47-ace9-472b-bb4b-cefc99e76c41",
+            "Value": {
+                "id": "a26c757b-043c-477b-a5b6-2ae080b2e2f8",
+                "resourcePath": "sprites\\sSun\\sSun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -279,19 +287,19 @@
             }
         },
         {
-            "Key": "b3e7d661-3857-42d5-aa80-efa0ca98c1bd",
-            "Value": {
-                "id": "fd09cacd-b454-4d25-ac56-20ded08f7406",
-                "resourcePath": "rooms\\rMenu\\rMenu.yy",
-                "resourceType": "GMRoom"
-			}
-		},
-		{
             "Key": "aff2dad7-2459-462e-8560-5b77c2938e73",
             "Value": {
                 "id": "262063a6-9088-4623-a109-2c2ad0967d10",
                 "resourcePath": "objects\\oRocket\\oRocket.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b3e7d661-3857-42d5-aa80-efa0ca98c1bd",
+            "Value": {
+                "id": "fd09cacd-b454-4d25-ac56-20ded08f7406",
+                "resourcePath": "rooms\\rMenu\\rMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

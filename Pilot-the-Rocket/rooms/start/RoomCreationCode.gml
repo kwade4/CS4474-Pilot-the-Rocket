@@ -32,3 +32,5 @@ mediumButton.selected = false;
 hardButton = instance_create_depth(600, 380, 0, oRadioButton);
 hardButton.label = "hard";
 hardButton.selected = false;
+
+
