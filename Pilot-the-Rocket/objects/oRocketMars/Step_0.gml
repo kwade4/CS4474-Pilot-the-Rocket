@@ -1,126 +1,97 @@
-left = keyboard_check(vk_left);
-right = keyboard_check(vk_right);
-up = keyboard_check(vk_up);
-down = keyboard_check(vk_down);
-take_picture = keyboard_check(vk_space);
+hsp = 0;
+vsp = 0;
+movesph = 1;
+movespv = 0;
+
+//move right
+if (keyboard_check(vk_right))
+{
+	movesph = 4;
+	movespv = 0;
+	left = keyboard_check(vk_left);
+	right = keyboard_check(vk_right);
 	
-var move = right - left;
+	//move horizontally
+	var move_h = right - left;
+	hsp = move_h * movesph;
+	vsp = 0;
+}
+
+//move left
+if (keyboard_check(vk_left))
+{
+	movesph = -4;
+	movespv = 0;
+	left = keyboard_check(vk_left);
+	right = keyboard_check(vk_right);
 	
-//move horizontally
-hsp = move * walksp;
-	
-//move vertically
-vsp = vsp + grv;
+	//move horizontally
+	var move_h = right - left;
+	hsp = move_h * movesph;
+	vsp = 0;
+}
+
+//move up
+if (keyboard_check(vk_up))
+{
+	movespv = -4;
+	movesph = 0;
+	up = keyboard_check(vk_up);
+	down = keyboard_check(vk_down);
+
+	//move vertically
+	var move_v = up - down;
+	vsp = move_v * movespv;
+	hsp = 0;
+}
+
+//move down
+if (keyboard_check(vk_down))
+{
+	movespv = 4;
+	movesph = 0;
+	up = keyboard_check(vk_up);
+	down = keyboard_check(vk_down);
+
+	//move vertically
+	var move_v = up - down;
+	vsp = move_v * movespv;
+	hsp = 0;
+}
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
-if(place_meeting(x, y+vsp, oBounds))
+if(place_meeting(x, y+movespv, oBounds))
 {
-	room_goto(rOutOfBounds);
+	room_goto(rMars);
 }
 	
-if(place_meeting(x+hsp, y, oEndLevel))
+if(place_meeting(x+movesph, y, oEndLevel))
 {
-	room_goto(r);
-}
-	//if player clicks jump and at (x,y+1) touches oFloorWater, character will jump
-	if(place_meeting(x, y+1, oFloorWater) && jump)
-	{
-		vsp = jumpsp;		
-	}
-
-	//Horizontal collision
-	//if player moves horizontally and at (x+speed of horizontal movement, y) touches oFloorWater, player will stop moving horizontally
-	if(place_meeting(x+hsp, y, oFloorWater))
-	{
-		while(!place_meeting(x+sign(hsp), y, oFloorWater))
-		{
-			x = x + sign(hsp);		
-		}
-		hsp = 0;	
-	}
-	//otherwise, player will move horizontally
-	x = x + hsp;
-
-	//Vertical collision
-	//if player moves vertically and at (x, y+speed of vertical movement) touches oFloorWater, player will stop moving vertically
-	if(place_meeting(x, y+vsp, oFloorWater))
-	{
-		while(!place_meeting(x, y+sign(vsp), oFloorWater))
-		{
-			y = y + sign(vsp);		
-		}
-		vsp = 0;	
-	}
-	//otherwise, player will move vertically
-	y = y + vsp;
-
-	//Animation
-	//if meeting place is not oFloorWater and the form is not 1
-	if(!place_meeting(x, y+1, oFloorWater) && form != 1)
-	{
-		sprite_index = sprite_jumping;
-		image_speed = 0;
-		if(sign(vsp) > 0)
-		{
-			image_index = 1;
-		} 
-		else 
-		{
-			image_index = 0;
-		}
-	} 
-	else 
-	{
-		image_speed = 1;
-		if(hsp == 0)
-		{
-			sprite_index = sprite_standing;	
-		} 
-		else 
-		{
-			sprite_index = sprite_walking;
-		}
-	}
-	if(hsp != 0)
-	{
-		image_xscale = sign(hsp);	
-	}
-}	
-
-else 
-{
-	image_speed = 0;
-	sprite_index = sprite_standing;
+	room_goto(rMars);
 }
 
-if(isTalking)
+//Horizontal collision
+//if rocket moves horizontally and at (x+speed of horizontal movement, y) touches oAsteroid, player will stop moving horizontally
+if(place_meeting(x+movesph, y, oAsteroid))
 {
-	if(form != 2)
+	while(!place_meeting(x+sign(movesph), y, oAsteroid))
 	{
-		if(!place_meeting(x, y+1, oFloorWater) && form != 1)
-		{
-			x = x + hsp;
-			vsp = vsp + grv;
-			y = y + vsp;	
-		}	
-	} 
-	else 
-	{
-		if(!place_meeting(x, y+1, oFloorWater))
-		{
-			vsp = vsp + grv;
-			y = y + vsp;
-		}
+		x = x + sign(movesph);		
 	}
-	
+	room_goto(rMars);	
 }
+//otherwise, rocket will move horizontally
+x = x + movesph;
 
-
-if place_meeting(x, y+sign(vsp), oWater2)
+//Vertical collision
+//if player moves vertically and at (x, y+speed of vertical movement) touches oAsteroid, player will stop moving vertically
+if(place_meeting(x, y+movespv, oAsteroid))
 {
-    while !place_meeting(x, y+sign(vsp), oWater2) 
+	while(!place_meeting(x, y+sign(movespv), oAsteroid))
 	{
-        y += sign(vsp);
-    }
-    room_goto(roomWater);
+		y = y + sign(movespv);		
+	}
+	room_goto(rMars);		
 }
+//otherwise, player will move vertically
+y = y + movespv;

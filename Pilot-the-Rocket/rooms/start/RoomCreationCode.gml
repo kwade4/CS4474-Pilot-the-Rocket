@@ -32,3 +32,19 @@ mediumButton.selected = false;
 hardButton = instance_create_depth(600, 380, 0, oRadioButton);
 hardButton.label = "hard";
 hardButton.selected = false;
+
+//global variables
+global.currentRocket[0] = 0;	//placeholder
+global.currentRocket[1] = 0;	//earth
+global.currentRocket[2] = 0;	//mercury
+global.currentRocket[3] = 0;	//venus
+global.currentRocket[4] = 0;	//mars
+global.currentRocket[5] = 0;	//jupiter
+global.currentRocket[6] = 0;	//saturn
+global.currentRocket[7] = 0;	//uranus
+global.currentRocket[8] = 0;	//neptune
+
+global.camX = 0;
+global.camY = 0;
+global.halfViewWidth = 0;
+global.halfViewHeight = 0;
