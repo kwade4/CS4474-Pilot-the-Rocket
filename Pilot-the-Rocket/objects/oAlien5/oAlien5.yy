@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oAlien5",
     "eventList": [
-        
+        {
+            "id": "4db22ae3-597a-41f0-9ce4-aa3f5f1e433d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b0b9ef9e-dcf4-4df4-96a3-0a8cbf155a63"
+        },
+        {
+            "id": "6d40145c-a28a-4227-b0d7-32014d48388e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "399e4041-4bc7-4ab9-bb8c-4fe8344dcfc3",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "b0b9ef9e-dcf4-4df4-96a3-0a8cbf155a63"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
