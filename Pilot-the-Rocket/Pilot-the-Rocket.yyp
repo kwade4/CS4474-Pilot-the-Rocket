@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "009a750c-753a-4a4d-ac2f-430618b50bc6",
+            "Value": {
+                "id": "ef5d5b0c-0e63-4c87-b0a1-3ba58b04b7b5",
+                "resourcePath": "objects\/oSpaceStation\/oSpaceStation.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09c2d50a-94cc-42ea-980f-0ea1cfd1b98f",
             "Value": {
                 "id": "e9ea5456-9725-4a96-8811-98fff84d60e0",
@@ -99,14 +107,6 @@
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
                 "resourcePath": "sprites\/s_jupiter\/s_jupiter.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "32e8b9c6-bac3-47db-8c4d-64f781b39b2f",
-            "Value": {
-                "id": "2c7f216a-8707-4e3d-b160-ccb35f4a97e6",
-                "resourcePath": "sprites\/s_rocket\/s_rocket.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "59022b6c-dade-4b21-b34d-d3d5f79c24e3",
+            "Value": {
+                "id": "113c735c-496d-4bc1-9614-ea64bbfdf28e",
+                "resourcePath": "objects\/oCameraMercury\/oCameraMercury.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a3a508f-99e2-40b7-99cf-017b8d6aba97",
             "Value": {
                 "id": "caed2689-fb72-4f5b-9cff-dc43218c887f",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "73e2058d-3cfd-4509-9edb-80c5c2c2b064",
+            "Value": {
+                "id": "87e3fdc7-d952-48d8-bf82-90bb34bfa2fb",
+                "resourcePath": "sprites\/s_rocket\/s_rocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "79824045-182d-4669-bb1f-323b1fa099c3",
             "Value": {
                 "id": "9016e7ba-945e-470b-85fd-6f891adda52c",
@@ -308,6 +324,14 @@
                 "id": "44aa29bc-ced7-4764-8064-15b1b9bc1324",
                 "resourcePath": "views\/803aaf27-c5b4-474a-bce4-80161777ca7a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83e68dc8-4f26-401e-abcd-8eb5a89e6f84",
+            "Value": {
+                "id": "5715ecd0-09e0-4dd3-b435-e2acc4005264",
+                "resourcePath": "objects\/oMercury\/oMercury.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -442,7 +466,7 @@
             "Key": "c786d7da-961c-447d-8b98-3d9285fbb4b6",
             "Value": {
                 "id": "96b2366e-a542-45c7-bf2f-e36b5e801e86",
-                "resourcePath": "objects\/oCamera\/oCamera.yy",
+                "resourcePath": "objects\/oCameraMars\/oCameraMars.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -452,6 +476,14 @@
                 "id": "789ec107-6f74-4a98-874c-ae9330c7be29",
                 "resourcePath": "views\/c89caa05-5e85-44cb-9d97-72c73d4a9d25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c9905089-2198-4245-890f-dfd141d070bd",
+            "Value": {
+                "id": "b3c4fe73-6cf5-4fd0-9914-90b321fd1bd1",
+                "resourcePath": "objects\/oAstronaut\/oAstronaut.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -511,6 +543,14 @@
             }
         },
         {
+            "Key": "df2e6471-22e4-4442-9298-ce173654851a",
+            "Value": {
+                "id": "8e978885-d3e8-4c00-bf0b-970008c33cca",
+                "resourcePath": "objects\/oRocketMercury\/oRocketMercury.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "df43c536-0b95-4f33-a3e6-d8459d762e42",
             "Value": {
                 "id": "d4666a97-6c0d-4887-ae42-e5853e84bcfd",
@@ -524,6 +564,14 @@
                 "id": "f784c544-2c9e-45cb-869a-bef678d4f2ae",
                 "resourcePath": "views\/e607aca2-7e50-45cf-bf3d-38472b571fab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6536a41-2d51-49fe-83ff-54df801bd70e",
+            "Value": {
+                "id": "4a208b4a-678b-478f-b197-90a2b0e0737b",
+                "resourcePath": "sprites\/s_spacestation\/s_spacestation.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
