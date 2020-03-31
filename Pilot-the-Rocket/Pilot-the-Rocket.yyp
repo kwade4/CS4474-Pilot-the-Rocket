@@ -95,14 +95,6 @@
             }
         },
         {
-            "Key": "27ac4598-ac1b-4bcc-9d60-419995e95622",
-            "Value": {
-                "id": "2ea33884-a6ae-4662-81f9-7faed804ce32",
-                "resourcePath": "sprites\/s_endlevel\/s_endlevel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
@@ -231,6 +223,14 @@
             }
         },
         {
+            "Key": "5508ae9f-10bb-41b1-a60c-6365e2ca0802",
+            "Value": {
+                "id": "c939e124-20e7-4724-8ab3-ac363b59db0f",
+                "resourcePath": "sprites\/s_rocketright\/s_rocketright.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "58036a50-6323-4ab2-ba84-80ce8845ff37",
             "Value": {
                 "id": "d756fcc4-19f4-4c52-8ee5-04406b2a8537",
@@ -290,7 +290,7 @@
             "Key": "73e2058d-3cfd-4509-9edb-80c5c2c2b064",
             "Value": {
                 "id": "87e3fdc7-d952-48d8-bf82-90bb34bfa2fb",
-                "resourcePath": "sprites\/s_rocket\/s_rocket.yy",
+                "resourcePath": "sprites\/s_rocketup\/s_rocketup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "c884b7e7-43f0-4f5d-873e-45bc13869b3f",
+            "Value": {
+                "id": "a8480236-07a0-43a3-8365-0b108c44041c",
+                "resourcePath": "sprites\/s_rocketdown\/s_rocketdown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c89caa05-5e85-44cb-9d97-72c73d4a9d25",
             "Value": {
                 "id": "789ec107-6f74-4a98-874c-ae9330c7be29",
@@ -575,14 +583,6 @@
             }
         },
         {
-            "Key": "e73a474a-be8c-4ea5-bb0a-d83ecbafa017",
-            "Value": {
-                "id": "2e091f3f-75e5-48d6-b9a9-88e488d3d4f0",
-                "resourcePath": "objects\/oEndLevel\/oEndLevel.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "eb800e24-c27b-44aa-8add-49411117f356",
             "Value": {
                 "id": "7751d2d3-1644-42a1-9397-457c3611966a",
@@ -643,6 +643,14 @@
             "Value": {
                 "id": "55d0448d-f7e6-4db5-98cb-5c33774b0181",
                 "resourcePath": "sprites\/s_venus\/s_venus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6df50d7-1505-40a8-8df0-8fea0feef4cd",
+            "Value": {
+                "id": "64cf9e41-1915-4c95-9792-2dcce0f1e764",
+                "resourcePath": "sprites\/s_rocketleft\/s_rocketleft.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,6 +2,7 @@ hsp = 0;
 vsp = 0;
 movesph = 1;
 movespv = 0;
+sprite_index = s_rocketright;
 
 //move right
 if (keyboard_check(vk_right))
@@ -15,6 +16,7 @@ if (keyboard_check(vk_right))
 	var move_h = right - left;
 	hsp = move_h * movesph;
 	vsp = 0;
+	sprite_index = s_rocketright;
 }
 
 //move left
@@ -29,6 +31,7 @@ if (keyboard_check(vk_left))
 	var move_h = right - left;
 	hsp = move_h * movesph;
 	vsp = 0;
+	sprite_index = s_rocketleft;
 }
 
 //move up
@@ -43,6 +46,7 @@ if (keyboard_check(vk_up))
 	var move_v = up - down;
 	vsp = move_v * movespv;
 	hsp = 0;
+	sprite_index = s_rocketup;
 }
 
 //move down
@@ -57,15 +61,11 @@ if (keyboard_check(vk_down))
 	var move_v = up - down;
 	vsp = move_v * movespv;
 	hsp = 0;
+	sprite_index = s_rocketdown;
 }
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
 if(place_meeting(x, y+movespv, oBounds))
-{
-	room_goto(rMars);
-}
-	
-if(place_meeting(x+movesph, y, oEndLevel))
 {
 	room_goto(rMars);
 }

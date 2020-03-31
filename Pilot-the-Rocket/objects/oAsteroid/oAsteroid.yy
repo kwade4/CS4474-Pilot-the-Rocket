@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oAsteroid",
     "eventList": [
-        
+        {
+            "id": "c83081ca-c710-4c14-8285-138f056c41fd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "09c2d50a-94cc-42ea-980f-0ea1cfd1b98f"
+        },
+        {
+            "id": "ca29255c-7800-44c7-8531-1b6f2f0f15ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "09c2d50a-94cc-42ea-980f-0ea1cfd1b98f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
