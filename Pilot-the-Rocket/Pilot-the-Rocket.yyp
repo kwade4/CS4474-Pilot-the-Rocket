@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0f2dc01d-abc6-4387-a142-33fc84703f45",
+            "Value": {
+                "id": "5133d797-0109-479f-b28e-477bc58c2d6f",
+                "resourcePath": "objects\/oRocketJupiter\/oRocketJupiter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17009b7f-8c31-401d-bfbc-0b75b2e87819",
             "Value": {
                 "id": "f7ebe074-a25f-40e7-9eea-374b866b2b9e",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "476ae529-6f00-4e42-9df0-2f2c718f3467",
+            "Value": {
+                "id": "bd00e101-5fe6-4e20-94a7-607b8995e24e",
+                "resourcePath": "objects\/oAstronautFriend\/oAstronautFriend.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4823ccc0-2a14-4d99-9bde-488b38df177d",
             "Value": {
                 "id": "ea7eb58c-7a5b-49ec-b846-9155109e364c",
@@ -260,6 +276,14 @@
                 "id": "67966963-781e-4f23-b82c-544d2804fcc0",
                 "resourcePath": "rooms\/rMercury\/rMercury.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5e533361-02cc-4033-8ce4-edcacc304306",
+            "Value": {
+                "id": "b81039d8-d6e9-4572-9975-9286d7c3c1e3",
+                "resourcePath": "sprites\/s_astronautfriend\/s_astronautfriend.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "b615f3f5-2b45-4bb7-8b99-b9a87a501333",
+            "Value": {
+                "id": "2da5f405-d50e-40d4-ac44-a6316aff6c5b",
+                "resourcePath": "objects\/oCameraJupiter\/oCameraJupiter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd6ee8b0-ca68-4fbb-a2de-4242cd77deab",
             "Value": {
                 "id": "25fd705b-cf54-4670-9cbe-396334ff38d6",
@@ -495,6 +527,14 @@
             }
         },
         {
+            "Key": "cbac8bb0-235b-421f-9160-022f7fc9748e",
+            "Value": {
+                "id": "da20166e-fd2d-4bd7-83dd-692a78e34034",
+                "resourcePath": "objects\/oJupiter\/oJupiter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fc1adfea-33e7-4d93-83f2-c844ca08aa0f",
@@ -539,6 +579,14 @@
             "Value": {
                 "id": "60921843-a614-4f9e-8e20-54bf84c644fa",
                 "resourcePath": "sprites\/s_neptune\/s_neptune.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d857f615-4fc4-4ff7-a54d-032478cff4db",
+            "Value": {
+                "id": "f36e61fe-94fc-467e-bb37-1f63d24b67ae",
+                "resourcePath": "sprites\/s_boom\/s_boom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -620,6 +668,14 @@
                 "id": "62ecb7bd-2ad2-4923-834f-91ab1c202f42",
                 "resourcePath": "views\/f2360307-1142-4d90-b3b6-01839654282c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f23d6fa9-8a5a-43cb-a884-fc5edbb345b7",
+            "Value": {
+                "id": "03384053-a774-4caf-9389-3827538d147a",
+                "resourcePath": "objects\/oBoom\/oBoom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
