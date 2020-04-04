@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "af4536c3-cf1b-4308-921e-739b426a58b3",
+            "Value": {
+                "id": "433f417e-32b2-40bf-94ce-a35ceb44d350",
+                "resourcePath": "sprites\\sVenusSurface\\sVenusSurface.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afe97395-a53c-409a-8c1e-37c39a6c2ab5",
             "Value": {
                 "id": "fba9bae7-ffa0-4c1a-80c4-b95bd7846f6a",
@@ -444,6 +452,14 @@
                 "id": "12c72365-08e7-442b-bd4e-bfebfd0eae46",
                 "resourcePath": "sprites\\s_LvEndScreen\\s_LvEndScreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b610def3-1c5d-4088-82d8-daa8f25f4b97",
+            "Value": {
+                "id": "4d2a44ec-d0c5-4ff3-84ff-341350850d54",
+                "resourcePath": "objects\\oVenusSurface\\oVenusSurface.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -619,6 +635,14 @@
             "Value": {
                 "id": "0a6da1c9-44aa-4f90-8073-1288f4e930f4",
                 "resourcePath": "objects\\oXButton\\oXButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
+            "Value": {
+                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
+                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
                 "resourceType": "GMObject"
             }
         },
