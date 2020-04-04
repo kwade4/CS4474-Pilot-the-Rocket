@@ -1,38 +1,28 @@
 {
-    "id": "e9ba61e1-f39c-4826-8b65-adbe84f16221",
+    "id": "840812e7-04cc-4459-b8ce-74e02dd38435",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSelectMissionButton",
+    "name": "oSelectMPause",
     "eventList": [
         {
-            "id": "7f17305a-e466-42af-bc77-757dd21bda2f",
+            "id": "232e61be-5c90-4464-9e6c-cb5ad7d8a160",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
+            "enumb": 0,
             "eventtype": 6,
-            "m_owner": "e9ba61e1-f39c-4826-8b65-adbe84f16221"
+            "m_owner": "840812e7-04cc-4459-b8ce-74e02dd38435"
         },
         {
-            "id": "695159fb-5810-4b7b-8953-c644fcde26d1",
+            "id": "418fd519-e024-407c-b1aa-0cbfa1f72951",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 7,
             "eventtype": 6,
-            "m_owner": "e9ba61e1-f39c-4826-8b65-adbe84f16221"
-        },
-        {
-            "id": "be813102-422c-44e6-ac7d-ba92a00c4004",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e9ba61e1-f39c-4826-8b65-adbe84f16221"
+            "m_owner": "840812e7-04cc-4459-b8ce-74e02dd38435"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "56c03716-0de6-48d3-af9c-1ddad833e43f",
+    "spriteId": "a255acd9-b511-4efd-98ea-01a9dfd01cdf",
     "visible": true
 }
