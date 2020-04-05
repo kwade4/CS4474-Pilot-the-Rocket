@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "1a372753-4465-4096-baba-13b060354ada",
+            "Value": {
+                "id": "7a6edbc6-cff6-4453-b216-31db4743d095",
+                "resourcePath": "sprites\\sFuelGauge\\sFuelGauge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1cc7b4fe-9374-4299-9ab8-c58dac6aa2a8",
             "Value": {
                 "id": "8a697203-3443-4ab6-8eee-93e5e0dedf9a",
                 "resourcePath": "views\/1cc7b4fe-9374-4299-9ab8-c58dac6aa2a8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1e16eb6f-673b-4767-8e6a-d0d90977b904",
+            "Value": {
+                "id": "d77a3946-3a02-404e-94b6-af476d33de90",
+                "resourcePath": "objects\\oAltitude\\oAltitude.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -115,6 +131,14 @@
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
                 "resourcePath": "sprites\/s_jupiter\/s_jupiter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2f430d03-5acb-447b-a632-e48979d98a62",
+            "Value": {
+                "id": "1b577d19-0559-43ff-9e73-3e5dbee1581b",
+                "resourcePath": "sprites\\sGameHUD\\sGameHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -271,10 +295,34 @@
             }
         },
         {
+            "Key": "4a2f41f9-dc9a-44c1-8195-d8c8305e8ab6",
+            "Value": {
+                "id": "c29b6d55-b68a-490a-96df-18de754f3270",
+                "resourcePath": "objects\\oMissionObjHUD\\oMissionObjHUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a58b9fd-2e4b-4003-a2e2-1865fbe200fc",
             "Value": {
                 "id": "cbd3543b-9c97-4dfa-a261-fb20ff6d4733",
                 "resourcePath": "sprites\\sRadioButton\\sRadioButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4c89c08d-5720-4b93-b048-cd914be1f61c",
+            "Value": {
+                "id": "052fb810-99f1-402c-8787-418f562b193f",
+                "resourcePath": "sprites\\sHUDMissionStatus\\sHUDMissionStatus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d4f543f-b173-4830-9b52-e9d091d5ca6e",
+            "Value": {
+                "id": "8fa92d50-d61b-4eaf-94df-c9b3b76ca574",
+                "resourcePath": "sprites\\sMissionObjHUD\\sMissionObjHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -284,6 +332,14 @@
                 "id": "1d8b3b0e-71ed-4237-b8d4-1ee9194436d0",
                 "resourcePath": "rooms\\rVenus\\rVenus.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "50b73c4e-4ce9-4138-9992-8f85ffb99a35",
+            "Value": {
+                "id": "754955e9-548c-431f-b892-c59348dbf079",
+                "resourcePath": "objects\\oValueBox\\oValueBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -367,6 +423,14 @@
             }
         },
         {
+            "Key": "69814e99-cabc-4c7f-962e-c747d71f6865",
+            "Value": {
+                "id": "7eebcab9-143c-4268-a9dd-ba4c1ab3f20e",
+                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69278ffb-62e8-430c-83e9-b2820ed2a1db",
             "Value": {
                 "id": "5eadbcc9-4341-482d-bba5-bb7bb3563921",
@@ -387,6 +451,14 @@
             "Value": {
                 "id": "05d2ded3-ac51-40f0-b164-d536b3781e48",
                 "resourcePath": "sprites\\s_NextMissionButton\\s_NextMissionButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c5d0e79-06ef-4d04-86f8-12e83cc66c0f",
+            "Value": {
+                "id": "944874d5-1e2a-42bc-a204-b29f7a3a7f6f",
+                "resourcePath": "sprites\\sAltitudeHUD\\sAltitudeHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -428,6 +500,14 @@
                 "id": "4ab15918-6631-42fc-8341-a577e842cc91",
                 "resourcePath": "sprites\\s_ReturnToPause\\s_ReturnToPause.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a47af62-408a-437d-85ca-85a99e883fe9",
+            "Value": {
+                "id": "c3a0bd9f-84ad-4f4c-bab2-beb8b992cc11",
+                "resourcePath": "objects\\oGameHUD\\oGameHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -527,6 +607,14 @@
             }
         },
         {
+            "Key": "9f0cf8c9-9938-41d8-bfef-c9f98cb8138a",
+            "Value": {
+                "id": "675e7201-94be-4775-88d5-ec83ace772f0",
+                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
+                "resourceType": "GMObject"
+            }
+          },
+          {
             "Key": "9d8ac887-1481-4ec2-a571-aaeaf5f52166",
             "Value": {
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
@@ -591,6 +679,14 @@
             }
         },
         {
+            "Key": "af4536c3-cf1b-4308-921e-739b426a58b3",
+            "Value": {
+                "id": "433f417e-32b2-40bf-94ce-a35ceb44d350",
+                "resourcePath": "sprites\\sVenusSurface\\sVenusSurface.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "afe97395-a53c-409a-8c1e-37c39a6c2ab5",
             "Value": {
                 "id": "fba9bae7-ffa0-4c1a-80c4-b95bd7846f6a",
@@ -636,6 +732,14 @@
                 "id": "12c72365-08e7-442b-bd4e-bfebfd0eae46",
                 "resourcePath": "sprites\\s_LvEndScreen\\s_LvEndScreen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b610def3-1c5d-4088-82d8-daa8f25f4b97",
+            "Value": {
+                "id": "4d2a44ec-d0c5-4ff3-84ff-341350850d54",
+                "resourcePath": "objects\\oVenusSurface\\oVenusSurface.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -847,6 +951,14 @@
             }
         },
         {
+            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
+            "Value": {
+                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
+                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ee258285-1e24-41f6-a247-3cd897ae6c37",
             "Value": {
                 "id": "41a34d40-d4d0-4ad5-bdcc-52a26b2d8c20",
@@ -900,6 +1012,14 @@
                 "id": "470f8a67-c603-4df3-a551-ff20a90b710f",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f41caae4-1943-443f-8410-a86ed0ed6448",
+            "Value": {
+                "id": "12dd7b46-27ed-4aa1-8a6f-2f5a90cf07d8",
+                "resourcePath": "sprites\\sNumberBox\\sNumberBox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
