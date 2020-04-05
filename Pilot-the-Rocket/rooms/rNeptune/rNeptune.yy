@@ -2,7 +2,7 @@
 {
     "name": "rNeptune",
     "id": "3a5e2459-a4f6-4489-9ade-257f5d6215a8",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

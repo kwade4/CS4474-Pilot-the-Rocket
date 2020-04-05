@@ -1,11 +1,10 @@
 collision = false;
 diamonds = 0;
-success = 0;
+success = false;
 
 fuel_amount = 150;
-physics_mass_properties(1, x, y, 1);
 
 hsp=0;
 vsp=0;
-movespv = 0;
+movespv = 1;
 movesph = 1;

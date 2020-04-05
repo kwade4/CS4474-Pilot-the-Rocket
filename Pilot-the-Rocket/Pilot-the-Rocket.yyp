@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "014146ea-ec5a-4b6f-aa44-2dc37499df01",
+            "Value": {
+                "id": "ad0774f2-9d30-41ea-9128-60b28a972f3d",
+                "resourcePath": "sprites\\sDiamonds\\sDiamonds.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01920777-53c3-4375-a483-f2e9c149692d",
             "Value": {
                 "id": "38e9cd46-69ee-44a4-8598-872c617c1f42",
@@ -719,6 +727,14 @@
             }
         },
         {
+            "Key": "a51031de-ddfe-4b90-86a3-237e5f651632",
+            "Value": {
+                "id": "4cc212ff-60ac-497a-a581-dff3125b4cf8",
+                "resourcePath": "objects\\oUranusGrid\\oUranusGrid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aa162cd8-e099-4532-935b-017d4b5e789f",
             "Value": {
                 "id": "757bd126-88cf-4637-88b2-7264aa959b7a",
@@ -820,6 +836,14 @@
                 "id": "3953e639-e500-41ea-a8c2-eb6c0824d9f9",
                 "resourcePath": "sprites\\s_aiRocket\\s_aiRocket.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bb3b1ed8-2922-47cb-94f7-83f1846a149e",
+            "Value": {
+                "id": "a42423ee-579b-402c-98ab-7517dac03778",
+                "resourcePath": "objects\\oDiamond\\oDiamond.yy",
+                "resourceType": "GMObject"
             }
         },
         {
