@@ -32,6 +32,11 @@ if (fuel_amount > 0) {
 		physics_apply_force(x, y, thrust, 0);
 		image_index = 1; 
 	}
+	
+	// Move Left 
+	if (keyboard_check(vk_left)) {
+		physics_apply_force(x, y, -thrust, 0); 
+	}
 }
 
 
@@ -66,7 +71,6 @@ if(fuel_amount == 0 or collision or success) {
 	mission_success = instance_create_depth(oGameHUD.x-32, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.45; 
 	mission_success.image_yscale = 0.45; 
-	success = false; 
 	
 	if(success) {
 		mission_success.image_index = 1;		// display checkmark on HUD

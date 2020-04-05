@@ -1,115 +1,84 @@
-shsp = 0;
-vsp = 0;
-movesph = 1;
-movespv = 0;
-sprite_index = s_rocketright;
-
-//move right
-if (keyboard_check(vk_right))
-{
-	movesph = 4;
-	movespv = 0;
-	left = keyboard_check(vk_left);
-	right = keyboard_check(vk_right);
+image_index = 0;		// Rocket with no flames 
 	
-	//move horizontally
-	var move_h = right - left;
-	hsp = move_h * movesph;
-	vsp = 0;
-	sprite_index = s_rocketright;
+if (phy_speed == 0) {
+	phy_rotation = 0; 
 }
-
-//move left
-if (keyboard_check(vk_left))
-{
-	movesph = -4;
-	movespv = 0;
-	left = keyboard_check(vk_left);
-	right = keyboard_check(vk_right);
+	 
+else { 
+	phy_rotation = (darccos(-phy_speed_y / phy_speed)) - 90;
+}
 	
-	//move horizontally
-	var move_h = right - left;
-	hsp = move_h * movesph;
-	vsp = 0;
-	sprite_index = s_rocketleft;
+if (fuel_amount > 0) {
+		
+	// Decrease fuel amount for the hard level 
+	if (global.levelDifficulty == 2 && (keyboard_check(vk_right) || keyboard_check(vk_left) 
+									|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
+		fuel_amount -= 0.5; 
+	}
+		
+	// Move up
+	if (keyboard_check(vk_up)) {
+		physics_apply_force(x, y, 0, -thrust);
+	}
+
+	// Move down
+	if (keyboard_check(vk_down)) {
+		image_index = 1;	
+		physics_apply_force(x, y, 0, thrust);
+	}
+		
+	// Move Right 
+	if (keyboard_check(vk_right)) {						 
+		physics_apply_force(x, y, thrust, 0);
+		image_index = 1; 
+	}
+	
+	// Move Left 
+	if (keyboard_check(vk_left)) {
+		physics_apply_force(x, y, -thrust, 0); 
+	}
 }
 
-//move up
-if (keyboard_check(vk_up))
-{
-	movespv = -4;
-	movesph = 0;
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
 
-	//move vertically
-	var move_v = up - down;
-	vsp = move_v * movespv;
-	hsp = 0;
-	sprite_index = s_rocketup;
-}
+// Update the fuel gauge 
+oGameHUD.fuel_gauge.image_index = (floor(fuel_amount / 21.43)); 
 
-//move down
-if (keyboard_check(vk_down))
-{
-	movespv = 4;
-	movesph = 0;
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
+// Update values in the HUD 
+merc_x_velo.value = phy_speed_x;
+merc_y_velo.value = phy_speed_y; 
 
-	//move vertically
-	var move_v = up - down;
-	vsp = move_v * movespv;
-	hsp = 0;
-	sprite_index = s_rocketdown;
-}
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
-if(place_meeting(x, y+movespv, oBounds))
-{
-	room_goto(rMercury);
+if(place_meeting(x, y, oBounds)) {
+	collision = true; 
+	success = false; 
 }
+
+// If the rocket collides with the asteroid
+if(place_meeting(x, y, oAsteroid)) {
+	collision = true;
+	success = false; 
+}
+
+if(place_meeting(x, y, oMercury)) {
+	success = true; 
+}
+
+if(fuel_amount == 0 or collision or success) { 
+	physics_pause_enable(true); 
+	mission_success = instance_create_depth(oGameHUD.x-32, oGameHUD.y, -101, oHUDMissionStatus);
+	mission_success.image_xscale = 0.45; 
+	mission_success.image_yscale = 0.45;  
 	
-if(place_meeting(x+movesph, y, oMercury))
-{
-	room_goto(rLvEndScreen);
-}
-
-//Horizontal collision
-//if rocket moves horizontally and at (x+speed of horizontal movement, y) touches oAsteroid, player will stop moving horizontally
-if(place_meeting(x+movesph, y, oAsteroid))
-{
-	while(!place_meeting(x+sign(movesph), y, oAsteroid))
-	{
-		x = x + sign(movesph);		
+	if(success) {
+		mission_success.image_index = 1;		// display checkmark on HUD
+		merc_y_velo.value = 0;
+		merc_x_velo.value = 0;
+		room_goto(rLvEndScreen); 
 	}
-	room_goto(rMercury);	
+	
+	else {
+		mission_success.image_index = 0;		// display X on HUD
+		room_goto(rLvInstructions);
+	} 
 }
-//otherwise, rocket will move horizontally
-x = x + movesph;
-
-//Vertical collision
-//if player moves vertically and at (x, y+speed of vertical movement) touches oAsteroid, player will stop moving vertically
-if(place_meeting(x, y+movespv, oAsteroid))
-{
-	while(!place_meeting(x, y+sign(movespv), oAsteroid))
-	{
-		y = y + sign(movespv);		
-	}
-	room_goto(rMercury);		
-}
-
-//vertical interruption
-if(place_meeting(x , y, object80))
-{
-	if(y > object80.y)
-	{
-		movespv = 5
-	}
-	else{
-		movespv = -5
-	}
-}
-//otherwise, player will move vertically
-y = y + movespv;
-
