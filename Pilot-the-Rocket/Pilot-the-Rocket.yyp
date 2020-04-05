@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "bfe53198-b997-4f65-b6d3-dc9156783bb4",
+            "Value": {
+                "id": "9c7737e8-86fa-4c1f-9a0a-7f1478b81052",
+                "resourcePath": "sprites\\s_HelpfulAstro\\s_HelpfulAstro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c007b491-ef28-49b9-9f1a-091bc44dfb08",
             "Value": {
                 "id": "05861f05-d175-4211-a76d-e46a61a8a646",
