@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "651ce476-c802-4175-a840-0d79b1d8dce6",
+            "Value": {
+                "id": "14e4bc97-2c0b-4e5f-b429-203b16f5ddbe",
+                "resourcePath": "fonts\\scaledFont\\scaledFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "66c7fd10-aa91-476e-96c3-919a1ff64b92",
             "Value": {
                 "id": "e10574f5-e124-472c-a0ba-a0139c020da6",

@@ -1,5 +1,6 @@
 global.levelDifficulty = 0;
 global.currentLevel = 0;
+global.paused = false;
 
 // levels: 0 = available, 1 = locked
 global.levels[0] = 0;	//placeholder
