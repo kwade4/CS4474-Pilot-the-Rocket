@@ -40,13 +40,15 @@ if (fuel_amount > 0) {
 }
 
 
-
 // Update the fuel gauge 
 oGameHUD.fuel_gauge.image_index = (floor(fuel_amount / 21.43)); 
 
 // Update values in the HUD 
 mars_x_velo.value = phy_speed_x;
 mars_y_velo.value = phy_speed_y; 
+
+// Update the number of aliens 
+oGameHUD.alien_progress_bar.image_index = global.aliens; 
 
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
@@ -61,9 +63,11 @@ if(place_meeting(x, y, oAsteroid)) {
 	success = false; 
 }
 
-if(global.aliens == 10) {
+
+if((global.levelDifficulty == 0 and global.aliens == 5) or (global.levelDifficulty > 0 and global.aliens == 10)) {
 	success = true;
-} 
+}
+
 
 
 if(fuel_amount == 0 or collision or success) { 

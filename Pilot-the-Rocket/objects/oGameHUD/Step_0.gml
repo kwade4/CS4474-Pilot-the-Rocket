@@ -28,6 +28,9 @@ if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel 
 		// Move the y-velo with the rocket 
 		mars_y_velo.x = x + (360 - 288); 
 		mars_y_velo.y = y + (375 - 357); 
+		
+		alien_progress_bar.x = x + (387 - 288);
+		alien_progress_bar.y = y + (320 - 357);
 	}
 	
 	else if (global.currentLevel == 5) {
