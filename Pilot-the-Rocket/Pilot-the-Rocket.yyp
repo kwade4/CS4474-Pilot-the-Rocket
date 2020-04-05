@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2b964632-591e-4b90-ab5a-7606994baec8",
+            "Value": {
+                "id": "77fdb07f-7dc8-48eb-92ee-520f9018d652",
+                "resourcePath": "objects\\oDiamondM\\oDiamondM.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
@@ -455,14 +463,6 @@
             }
         },
         {
-            "Key": "580e3efb-97ac-4aab-a1fa-7a5150764de8",
-            "Value": {
-                "id": "67cbe335-6136-4f95-89f3-b66361657bf3",
-                "resourcePath": "objects\\oSolarWinds\\oSolarWinds.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5a3a508f-99e2-40b7-99cf-017b8d6aba97",
             "Value": {
                 "id": "caed2689-fb72-4f5b-9cff-dc43218c887f",
@@ -716,6 +716,14 @@
                 "id": "44aa29bc-ced7-4764-8064-15b1b9bc1324",
                 "resourcePath": "views\/803aaf27-c5b4-474a-bce4-80161777ca7a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8401b99b-c636-4a65-944a-a182b808b99f",
+            "Value": {
+                "id": "36140e04-8296-44c8-9d83-69e1e5174fff",
+                "resourcePath": "objects\\object80\\object80.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1191,6 +1199,14 @@
             }
         },
         {
+            "Key": "d23238fe-a975-4a8b-8201-171147db383b",
+            "Value": {
+                "id": "11d15763-2067-4fa5-baf5-c47a6ef58645",
+                "resourcePath": "sprites\\s_SolarW\\s_SolarW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d313eb6f-3d86-4ca2-b851-5d6732f901ac",
             "Value": {
                 "id": "8005ab88-42ac-400f-bbde-a6f609ceae04",
@@ -1300,6 +1316,14 @@
                 "id": "cba454d3-81ef-4f63-8dc4-544b8dbb0db3",
                 "resourcePath": "sprites\/s_ContinueButton\/s_ContinueButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb73cf68-b8ad-4080-ab0d-843b166b6a47",
+            "Value": {
+                "id": "7f0f07ac-a8bc-4e36-b2fb-d3432762bbdc",
+                "resourcePath": "objects\\oDiamondH\\oDiamondH.yy",
+                "resourceType": "GMObject"
             }
         },
         {
