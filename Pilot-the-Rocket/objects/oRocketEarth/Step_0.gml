@@ -43,7 +43,6 @@ if (!collision) {
 if(collision) {
 	if(touchEarth=false){
 		success = true;
-		room_goto(rLvEndScreen);
 		//collided to docking station
 	}
 	else{
