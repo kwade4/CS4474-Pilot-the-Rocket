@@ -1,4 +1,4 @@
-if(place_meeting(x,y,oUranus)){
+if(place_meeting(oUranusAI.x,oUranusAI.y,oUranus)){
 	reachGoalAI = true;
 	instance_deactivate_object(oUranusRocket);
 }

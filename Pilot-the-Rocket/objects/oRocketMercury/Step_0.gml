@@ -98,6 +98,18 @@ if(place_meeting(x, y+movespv, oAsteroid))
 	}
 	room_goto(rMercury);		
 }
+
+//vertical interruption
+if(place_meeting(x , y, object80))
+{
+	if(y > object80.y)
+	{
+		movespv = 5
+	}
+	else{
+		movespv = -5
+	}
+}
 //otherwise, player will move vertically
 y = y + movespv;
 
