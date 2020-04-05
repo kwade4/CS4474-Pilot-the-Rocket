@@ -19,3 +19,6 @@ y = clamp(y, halfViewHeight, room_height - halfViewHeight);
 camera_set_view_pos(mainCamera, x - halfViewWidth, y - halfViewHeight);
 
 layer_x("Background", x * 0.3);
+
+oGameHUD.y = y - halfViewHeight + 357;
+oGameHUD.x = x - halfViewWidth + 288;  
