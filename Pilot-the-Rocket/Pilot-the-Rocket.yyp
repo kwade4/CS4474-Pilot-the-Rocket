@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "5f9d620f-1cd5-47fd-a56a-6a65d2255b97",
+            "Value": {
+                "id": "123fe663-aa42-4a1e-a5d0-9bc224ab32f9",
+                "resourcePath": "sprites\/s_bounds\/s_bounds.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60d5d167-9466-4e75-a83d-3beacc3dec66",
             "Value": {
                 "id": "2274e225-3f5f-4891-bd26-7681b1e2bb62",
