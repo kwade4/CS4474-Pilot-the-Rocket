@@ -115,7 +115,7 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "inst_472648D8","id": "72afd480-ebe2-48a6-9cb2-7eb19be41625","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_472648D8.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_472648D8","objId": "c7dd75b7-267a-4738-b054-863351901a83","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1120,"y": 512},
-{"name": "inst_2C5BD539","id": "7c671776-4716-4cf7-a692-41c58d66b415","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C5BD539","objId": "b8b024d4-d2cc-4d88-ab60-a1d9b00e13c8","properties": null,"rotation": 0,"scaleX": 0.06290673,"scaleY": 0.02819957,"mvc": "1.1","x": 64,"y": 160},
+{"name": "inst_2C5BD539","id": "7c671776-4716-4cf7-a692-41c58d66b415","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C5BD539","objId": "b8b024d4-d2cc-4d88-ab60-a1d9b00e13c8","properties": null,"rotation": 0,"scaleX": 0.09761389,"scaleY": 0.06290672,"mvc": "1.1","x": 64,"y": 160},
 {"name": "inst_59B24806","id": "dfec5330-cd81-4c31-b565-c41b9a95fa7c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_59B24806","objId": "b9eb7e5a-1481-436f-accf-2173f75d2511","properties": null,"rotation": 0,"scaleX": 0.3093525,"scaleY": 0.2781955,"mvc": "1.1","x": 320,"y": 96},
 {"name": "inst_3FD1625","id": "7b268433-f782-429f-b720-a5197736cf32","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3FD1625","objId": "b9eb7e5a-1481-436f-accf-2173f75d2511","properties": null,"rotation": 0,"scaleX": 0.3093525,"scaleY": 0.2781955,"mvc": "1.1","x": 224,"y": 256},
 {"name": "inst_6EB1B36D","id": "7cd11481-a3c8-4a62-9591-77247187b46c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6EB1B36D","objId": "b9eb7e5a-1481-436f-accf-2173f75d2511","properties": null,"rotation": 0,"scaleX": 0.3093525,"scaleY": 0.2781955,"mvc": "1.1","x": 512,"y": 160},
@@ -228,7 +228,7 @@
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
-            "htiled": false,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -241,12 +241,12 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "dee2a743-1c82-4b70-ad69-c601a1e1dbe0",
-            "stretch": false,
+            "stretch": true,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
