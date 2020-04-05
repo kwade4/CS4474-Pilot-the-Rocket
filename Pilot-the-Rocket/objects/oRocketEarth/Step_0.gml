@@ -26,7 +26,15 @@ if (!collision) {
 			y_force = -thrust * dcos(phy_rotation);		// thrust * cos(angle)
 			x_force = thrust * dsin(phy_rotation);		// thrust * sin(angle) 
 			physics_apply_local_force(0, 0, x_force, y_force);
-			image_index = 1; 
+			image_index = 1;
+			
+			if(takeoff==true){
+				var earthtop = oEarth.sprite_height/2
+				var earth_dist = earthtop - y;
+				if(earth_dist > 32){
+					takeoff = false;
+				}
+			}
 		}
 
 
