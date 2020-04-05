@@ -36,7 +36,7 @@
                 "id": "38e9cd46-69ee-44a4-8598-872c617c1f42",
                 "resourcePath": "objects\\oHelpfulAstro\\oHelpfulAstro.yy",
                 "resourceType": "GMObject"
-          	}
+            }
         },
         {
             "Key": "09e458be-253c-4371-b261-c5ddc03fe07f",
@@ -52,6 +52,14 @@
                 "id": "25fbaecc-cc0d-4df5-9951-06b19933ee90",
                 "resourcePath": "rooms\\rEarth\\rEarth.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "12a6594a-1f37-4fee-9e5d-d71d23e826b0",
+            "Value": {
+                "id": "162455c4-df7f-4909-bf1b-a28f615749be",
+                "resourcePath": "objects\\oBoom\\oBoom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -135,14 +143,6 @@
             }
         },
         {
-            "Key": "2f430d03-5acb-447b-a632-e48979d98a62",
-            "Value": {
-                "id": "1b577d19-0559-43ff-9e73-3e5dbee1581b",
-                "resourcePath": "sprites\\sGameHUD\\sGameHUD.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2e7b0791-97a2-44a4-947c-adfff414d41f",
             "Value": {
                 "id": "057e08a5-ec8a-4ce1-ba6c-efa65909ffbb",
@@ -156,6 +156,22 @@
                 "id": "ed38b8b9-b120-4aa5-9b35-873e4cfd7d15",
                 "resourcePath": "objects\\oNeptuneItemE\\oNeptuneItemE.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2f430d03-5acb-447b-a632-e48979d98a62",
+            "Value": {
+                "id": "1b577d19-0559-43ff-9e73-3e5dbee1581b",
+                "resourcePath": "sprites\\sGameHUD\\sGameHUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2fef56a2-b2ba-46d8-aa3f-d07db5d8e190",
+            "Value": {
+                "id": "4664a029-01df-4936-ae31-d88acce54560",
+                "resourcePath": "sprites\\s_Boom\\s_Boom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,18 +399,18 @@
             }
         },
         {
-            "Key": "5f637ff3-4565-437b-8884-35aa6f96523f",
-            "Value": {
-                "id": "0e1c3796-ce71-44f5-905c-8d4234793d07",
-                "resourcePath": "sprites\\s_TryAgain\\s_TryAgain.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5d31cfd2-a61d-42f6-97c1-3137a42ddc78",
             "Value": {
                 "id": "a7f910cc-9842-4050-a7de-6dbdabaf859a",
                 "resourcePath": "sprites\\s_SaturnRing1\\s_SaturnRing1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f637ff3-4565-437b-8884-35aa6f96523f",
+            "Value": {
+                "id": "0e1c3796-ce71-44f5-905c-8d4234793d07",
+                "resourcePath": "sprites\\s_TryAgain\\s_TryAgain.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "67f8b0c5-6f37-4c73-9b82-76399e202047",
+            "Value": {
+                "id": "dbae5eac-86c4-4779-965e-5da274deb7c9",
+                "resourcePath": "objects\\oEarthRocket\\oEarthRocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6918874d-c907-4d8a-82d0-3f0d80346b8a",
             "Value": {
                 "id": "e8aa31c1-9cdc-4f7c-9562-c47a4a7f1505",
@@ -423,18 +447,18 @@
             }
         },
         {
-            "Key": "69814e99-cabc-4c7f-962e-c747d71f6865",
-            "Value": {
-                "id": "7eebcab9-143c-4268-a9dd-ba4c1ab3f20e",
-                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "69278ffb-62e8-430c-83e9-b2820ed2a1db",
             "Value": {
                 "id": "5eadbcc9-4341-482d-bba5-bb7bb3563921",
                 "resourcePath": "objects\\oSaturnRing1\\oSaturnRing1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69814e99-cabc-4c7f-962e-c747d71f6865",
+            "Value": {
+                "id": "7eebcab9-143c-4268-a9dd-ba4c1ab3f20e",
+                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -559,6 +583,14 @@
             }
         },
         {
+            "Key": "86c6a4c0-32fc-4aec-8020-46b1023f1b6a",
+            "Value": {
+                "id": "ddc896c1-e7bb-4e94-93be-46a85f5e25bc",
+                "resourcePath": "objects\\oEarth\\oEarth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87dfd333-b7c6-4506-b0cc-45bdc5bac4c4",
             "Value": {
                 "id": "d068b154-bd86-4288-92c2-9661a4561856",
@@ -591,14 +623,6 @@
             }
         },
         {
-            "Key": "91e604b8-6053-401d-8f76-fa22b0b29585",
-            "Value": {
-                "id": "e342ab66-125a-4d70-bcfe-f73d12280123",
-                "resourcePath": "objects\\oRocketEarth\\oRocketEarth.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "99a8e08a-546a-48c7-9ddc-522c202ed14b",
             "Value": {
                 "id": "e7e6fe09-cd24-4880-905d-4e31e6c66a86",
@@ -607,19 +631,19 @@
             }
         },
         {
-            "Key": "9f0cf8c9-9938-41d8-bfef-c9f98cb8138a",
-            "Value": {
-                "id": "675e7201-94be-4775-88d5-ec83ace772f0",
-                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
-                "resourceType": "GMObject"
-            }
-          },
-          {
             "Key": "9d8ac887-1481-4ec2-a571-aaeaf5f52166",
             "Value": {
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
                 "resourcePath": "sprites\\s_NeptuneItems\\s_NeptuneItems.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f0cf8c9-9938-41d8-bfef-c9f98cb8138a",
+            "Value": {
+                "id": "675e7201-94be-4775-88d5-ec83ace772f0",
+                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -660,6 +684,14 @@
                 "id": "b50fca32-0ad3-4cab-8d0f-998721daef08",
                 "resourcePath": "rooms\\rLvInfo\\rLvInfo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "aa162cd8-e099-4532-935b-017d4b5e789f",
+            "Value": {
+                "id": "757bd126-88cf-4637-88b2-7264aa959b7a",
+                "resourcePath": "sprites\\s_Docking\\s_Docking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -839,6 +871,14 @@
             }
         },
         {
+            "Key": "d20a676f-82ac-4bd9-9237-fbfe2432b746",
+            "Value": {
+                "id": "12c4afbe-2128-446a-bd4b-285e610543b2",
+                "resourcePath": "objects\\oDocking\\oDocking.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d313eb6f-3d86-4ca2-b851-5d6732f901ac",
             "Value": {
                 "id": "8005ab88-42ac-400f-bbde-a6f609ceae04",
@@ -951,10 +991,10 @@
             }
         },
         {
-            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
+            "Key": "ede333a8-6b46-48de-8934-861db98713ca",
             "Value": {
-                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
-                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
+                "id": "5e38d79a-5218-4191-ab6e-38d946749d3a",
+                "resourcePath": "objects\\oEarthOrbit\\oEarthOrbit.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -972,6 +1012,14 @@
                 "id": "35b425fc-35ef-4fc3-b93b-6690a9f7430a",
                 "resourcePath": "sprites\\s_SaturnRock\\s_SaturnRock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
+            "Value": {
+                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
+                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1051,6 +1099,14 @@
             "Value": {
                 "id": "abcdc8cd-7c7c-4615-ab1b-abd6cdae2704",
                 "resourcePath": "objects\\oLevelDesc\\oLevelDesc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f99c72a1-2645-4bd6-9ee3-9e853a83a171",
+            "Value": {
+                "id": "a4486f0f-1d2c-493c-8a56-9df98ed19624",
+                "resourcePath": "objects\\oRocketEarth\\oRocketEarth.yy",
                 "resourceType": "GMObject"
             }
         },

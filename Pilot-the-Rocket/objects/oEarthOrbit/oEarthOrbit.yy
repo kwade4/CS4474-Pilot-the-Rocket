@@ -1,10 +1,19 @@
 {
-    "id": "325366ed-54c2-4473-a34f-212835e42f6f",
+    "id": "ede333a8-6b46-48de-8934-861db98713ca",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oEarthOrbit",
     "eventList": [
-        
+        {
+            "id": "a0924159-abb4-4e82-90ee-54f32134aea0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ede333a8-6b46-48de-8934-861db98713ca"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
