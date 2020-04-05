@@ -1,5 +1,10 @@
-hsp = 0;
-vsp = 0;
-movesph = 0;
-movespv = 0;
 sprite_index = s_rocketright;
+
+thrust = 15; 
+
+physics_mass_properties(1, 0, 0, 0.5);
+
+collision = false; 
+success = false; 
+
+fuel_amount = 150; 

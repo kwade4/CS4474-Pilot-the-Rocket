@@ -1,28 +1,28 @@
 {
-    "id": "580e3efb-97ac-4aab-a1fa-7a5150764de8",
+    "id": "8401b99b-c636-4a65-944a-a182b808b99f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSolarWinds",
+    "name": "object80",
     "eventList": [
         {
-            "id": "0a90e64f-3903-43b4-a74e-1abc114856e0",
+            "id": "02587b4a-8a94-43e3-83e2-8c095f3a957a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "580e3efb-97ac-4aab-a1fa-7a5150764de8"
+            "m_owner": "8401b99b-c636-4a65-944a-a182b808b99f"
         },
         {
-            "id": "2ba00c26-8c5b-48c5-bca3-7d0eeddfd2a6",
+            "id": "ec069506-f379-4f50-ad1d-0812f01549d8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "580e3efb-97ac-4aab-a1fa-7a5150764de8"
+            "m_owner": "8401b99b-c636-4a65-944a-a182b808b99f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "c74b0de4-a040-4965-962a-3d83400be3b5",
+    "spriteId": "d23238fe-a975-4a8b-8201-171147db383b",
     "visible": true
 }
