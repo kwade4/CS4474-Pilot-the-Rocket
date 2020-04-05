@@ -36,7 +36,7 @@
                 "id": "38e9cd46-69ee-44a4-8598-872c617c1f42",
                 "resourcePath": "objects\\oHelpfulAstro\\oHelpfulAstro.yy",
                 "resourceType": "GMObject"
-          	}
+            }
         },
         {
             "Key": "09e458be-253c-4371-b261-c5ddc03fe07f",
@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "2f430d03-5acb-447b-a632-e48979d98a62",
-            "Value": {
-                "id": "1b577d19-0559-43ff-9e73-3e5dbee1581b",
-                "resourcePath": "sprites\\sGameHUD\\sGameHUD.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "2e7b0791-97a2-44a4-947c-adfff414d41f",
             "Value": {
                 "id": "057e08a5-ec8a-4ce1-ba6c-efa65909ffbb",
@@ -156,6 +148,14 @@
                 "id": "ed38b8b9-b120-4aa5-9b35-873e4cfd7d15",
                 "resourcePath": "objects\\oNeptuneItemE\\oNeptuneItemE.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2f430d03-5acb-447b-a632-e48979d98a62",
+            "Value": {
+                "id": "1b577d19-0559-43ff-9e73-3e5dbee1581b",
+                "resourcePath": "sprites\\sGameHUD\\sGameHUD.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,14 +383,6 @@
             }
         },
         {
-            "Key": "5f637ff3-4565-437b-8884-35aa6f96523f",
-            "Value": {
-                "id": "0e1c3796-ce71-44f5-905c-8d4234793d07",
-                "resourcePath": "sprites\\s_TryAgain\\s_TryAgain.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5d31cfd2-a61d-42f6-97c1-3137a42ddc78",
             "Value": {
                 "id": "a7f910cc-9842-4050-a7de-6dbdabaf859a",
@@ -399,10 +391,26 @@
             }
         },
         {
+            "Key": "5f637ff3-4565-437b-8884-35aa6f96523f",
+            "Value": {
+                "id": "0e1c3796-ce71-44f5-905c-8d4234793d07",
+                "resourcePath": "sprites\\s_TryAgain\\s_TryAgain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60d5d167-9466-4e75-a83d-3beacc3dec66",
             "Value": {
                 "id": "2274e225-3f5f-4891-bd26-7681b1e2bb62",
                 "resourcePath": "sprites\\sAstroExit\\sAstroExit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "655cb906-27a5-4d2b-969f-a1168f2020f2",
+            "Value": {
+                "id": "f0ed257d-8beb-4806-9ab1-2c0494cd8306",
+                "resourcePath": "sprites\\s_Boom\\s_Boom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -423,18 +431,18 @@
             }
         },
         {
-            "Key": "69814e99-cabc-4c7f-962e-c747d71f6865",
-            "Value": {
-                "id": "7eebcab9-143c-4268-a9dd-ba4c1ab3f20e",
-                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "69278ffb-62e8-430c-83e9-b2820ed2a1db",
             "Value": {
                 "id": "5eadbcc9-4341-482d-bba5-bb7bb3563921",
                 "resourcePath": "objects\\oSaturnRing1\\oSaturnRing1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69814e99-cabc-4c7f-962e-c747d71f6865",
+            "Value": {
+                "id": "7eebcab9-143c-4268-a9dd-ba4c1ab3f20e",
+                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -607,19 +615,19 @@
             }
         },
         {
-            "Key": "9f0cf8c9-9938-41d8-bfef-c9f98cb8138a",
-            "Value": {
-                "id": "675e7201-94be-4775-88d5-ec83ace772f0",
-                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
-                "resourceType": "GMObject"
-            }
-          },
-          {
             "Key": "9d8ac887-1481-4ec2-a571-aaeaf5f52166",
             "Value": {
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
                 "resourcePath": "sprites\\s_NeptuneItems\\s_NeptuneItems.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9f0cf8c9-9938-41d8-bfef-c9f98cb8138a",
+            "Value": {
+                "id": "675e7201-94be-4775-88d5-ec83ace772f0",
+                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -895,6 +903,14 @@
             }
         },
         {
+            "Key": "e50465f0-4d81-4af1-b8d7-5975db29b70e",
+            "Value": {
+                "id": "07ffbdbc-3fa7-4367-a008-23fe3d2aa604",
+                "resourcePath": "sprites\\sprite54\\sprite54.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e607aca2-7e50-45cf-bf3d-38472b571fab",
             "Value": {
                 "id": "f784c544-2c9e-45cb-869a-bef678d4f2ae",
@@ -951,14 +967,6 @@
             }
         },
         {
-            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
-            "Value": {
-                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
-                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ee258285-1e24-41f6-a247-3cd897ae6c37",
             "Value": {
                 "id": "41a34d40-d4d0-4ad5-bdcc-52a26b2d8c20",
@@ -972,6 +980,14 @@
                 "id": "35b425fc-35ef-4fc3-b93b-6690a9f7430a",
                 "resourcePath": "sprites\\s_SaturnRock\\s_SaturnRock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f0ced7af-6ebb-4088-8fcd-909d2db1df06",
+            "Value": {
+                "id": "a3a833ca-9513-4487-ad1d-b982e4afd6a4",
+                "resourcePath": "objects\\oVenusRocket\\oVenusRocket.yy",
+                "resourceType": "GMObject"
             }
         },
         {
