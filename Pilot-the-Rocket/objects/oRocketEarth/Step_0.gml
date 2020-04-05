@@ -51,8 +51,3 @@ if(collision) {
 	}
 }
 
-
-
-
- 
-

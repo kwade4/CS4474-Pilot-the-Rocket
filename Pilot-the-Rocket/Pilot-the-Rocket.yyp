@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "8b7dd2cc-ae37-49c7-9460-5b62919d634d",
+            "Value": {
+                "id": "324e80c1-ecfb-4acf-8984-e14cf6c6a8ca",
+                "resourcePath": "sprites\\sHealthBar\\sHealthBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8eb6bc47-ace9-472b-bb4b-cefc99e76c41",
             "Value": {
                 "id": "a26c757b-043c-477b-a5b6-2ae080b2e2f8",
@@ -931,6 +939,14 @@
             "Value": {
                 "id": "9e7caacd-7126-4ab4-bbe6-d2f8d7bc03e0",
                 "resourcePath": "objects\\oResumeButton\\oResumeButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e44f2541-1a2b-4cc3-ad38-7464bc8c01dc",
+            "Value": {
+                "id": "2f0c2dc8-64f6-498e-b084-5a4926f7aa54",
+                "resourcePath": "objects\\oHealthBar\\oHealthBar.yy",
                 "resourceType": "GMObject"
             }
         },
