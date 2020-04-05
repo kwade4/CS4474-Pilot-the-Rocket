@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2b964632-591e-4b90-ab5a-7606994baec8",
+            "Value": {
+                "id": "77fdb07f-7dc8-48eb-92ee-520f9018d652",
+                "resourcePath": "objects\\oDiamondM\\oDiamondM.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
             "Value": {
                 "id": "ef9e6ca8-9eb6-47b1-a23d-231f9eb0f8e8",
@@ -1300,6 +1308,14 @@
                 "id": "cba454d3-81ef-4f63-8dc4-544b8dbb0db3",
                 "resourcePath": "sprites\/s_ContinueButton\/s_ContinueButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb73cf68-b8ad-4080-ab0d-843b166b6a47",
+            "Value": {
+                "id": "7f0f07ac-a8bc-4e36-b2fb-d3432762bbdc",
+                "resourcePath": "objects\\oDiamondH\\oDiamondH.yy",
+                "resourceType": "GMObject"
             }
         },
         {
