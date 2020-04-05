@@ -84,7 +84,18 @@ if(fuel_amount == 0 or collision or success) {
 	}
 	
 	else {
+		global.paused = true;
 		mission_success.image_index = 0;		// display X on HUD
-		room_goto(rLvInstructions);
+		if(fuel_amount == 0){
+			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
+		} else {
+			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+		}
+		with(oHelpfulAstro){
+			tid = instance_create_depth(x + 70.5, y - 126, -100, oHelpBubble);
+			tid.image_xscale = 0.47;
+			tid.image_yscale = 0.57;
+			oHelpBubble.text = other.text;
+		}
 	} 
 }
