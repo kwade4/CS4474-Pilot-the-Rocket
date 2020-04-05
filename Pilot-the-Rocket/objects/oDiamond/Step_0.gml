@@ -1,3 +1,3 @@
 if(place_meeting(x,y,oUranusRocket)){
-	visible=false;
+	instance_deactivate_object(oDiamond);
 }
