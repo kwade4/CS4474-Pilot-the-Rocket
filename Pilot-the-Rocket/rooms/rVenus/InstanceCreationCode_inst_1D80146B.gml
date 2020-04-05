@@ -6,3 +6,5 @@ if global.levelDifficulty != 0 {
 	phy_rotation = -45;
 	phy_speed_x = 2;
 }
+
+phy_speed_y = 1; 

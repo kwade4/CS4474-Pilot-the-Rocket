@@ -27,7 +27,7 @@
     "physicsLinearDamping": 0.1,
     "physicsObject": true,
     "physicsRestitution": 0.1,
-    "physicsSensor": false,
+    "physicsSensor": true,
     "physicsShape": 1,
     "physicsShapePoints": [
         {
@@ -61,7 +61,7 @@
     ],
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
+    "solid": false,
     "spriteId": "af4536c3-cf1b-4308-921e-739b426a58b3",
     "visible": true
 }
