@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0641a164-1330-477e-9ce9-1ee1d3b9e9f0",
+            "Value": {
+                "id": "2e4ee542-a234-4086-8959-c2063bad05ba",
+                "resourcePath": "sprites\\sHUD\\sHUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09e458be-253c-4371-b261-c5ddc03fe07f",
             "Value": {
                 "id": "394942d8-b9bf-4a0b-a388-663792ebad35",
@@ -271,6 +279,14 @@
             }
         },
         {
+            "Key": "3c1cb4ef-0b32-44eb-911f-2e08b86ed79f",
+            "Value": {
+                "id": "b4f417d6-b5ca-4daa-89f3-4df67041490e",
+                "resourcePath": "objects\\oDrawHUD\\oDrawHUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d650be3-e30d-44cf-ba73-a5d92a084ee8",
             "Value": {
                 "id": "9711e46a-e4b6-4261-af97-9ab6889d4045",
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "4c379395-ab84-44ae-9d32-2fc0f761cf51",
+            "Value": {
+                "id": "a888eb88-55d2-475f-84f2-4be9b72dcf32",
+                "resourcePath": "objects\\oAlienProgressBar\\oAlienProgressBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c89c08d-5720-4b93-b048-cd914be1f61c",
             "Value": {
                 "id": "052fb810-99f1-402c-8787-418f562b193f",
@@ -444,6 +468,14 @@
                 "id": "c506f034-a35d-4320-8f56-88acc44a4568",
                 "resourcePath": "objects\/oCameraMars\/oCameraMars.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "556f4ec4-d27f-4ce0-9887-3599837cac63",
+            "Value": {
+                "id": "3462a975-26f1-4853-9564-4802b0a74dfc",
+                "resourcePath": "sprites\\sEasyAlienBar\\sEasyAlienBar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -828,6 +860,14 @@
                 "id": "cc324f45-ae49-45c7-a758-513b0701f1de",
                 "resourcePath": "objects\\oUranusRocket\\oUranusRocket.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9bb4a14b-d06e-411e-a211-cfbd19f77e3b",
+            "Value": {
+                "id": "39efe8dc-95be-4de7-9ad8-85afd0b777c3",
+                "resourcePath": "sprites\\sMHAlienBar\\sMHAlienBar.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1292,6 +1332,14 @@
                 "id": "1ae37f4a-3664-4cfe-b7b7-16d6ab308a96",
                 "resourcePath": "objects\/oCameraJupiter\/oCameraJupiter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2f6af4c-1c58-4061-881d-cb0dc78fbd4d",
+            "Value": {
+                "id": "f59175a4-1972-4133-80ed-24a76c91eda9",
+                "resourcePath": "sprites\\sBorder\\sBorder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

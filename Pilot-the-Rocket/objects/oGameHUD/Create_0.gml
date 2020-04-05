@@ -17,7 +17,27 @@ if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel 
 
 	// Show the appropriate mission objective for the level 
 	mission_objective.image_index = global.currentLevel - 1; 
+
+
+
+// Position the alien status bar to move with the camera 
+if (global.currentLevel == 4) {
+	alien_progress_bar = instance_create_depth(x + (387 - 288), y + (320 - 357), -101, oAlienProgressBar);
+	
+	// For the easy level display 5 aliens
+	if (global.levelDifficulty == 0) {
+		alien_progress_bar.sprite_index = sEasyAlienBar; 
+	} 
+	
+	alien_progress_bar.image_xscale = 0.28; 
+	alien_progress_bar.image_yscale = 0.28; 
+	alien_progress_bar.image_index = 0;			// show no aliens 
+	
+	
 }
+
+}
+
 
 else {
 	
