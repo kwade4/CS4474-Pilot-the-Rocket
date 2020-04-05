@@ -50,4 +50,3 @@ if(collision) {
 		//collided to earth		
 	}
 }
-
