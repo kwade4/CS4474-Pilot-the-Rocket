@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "7b505396-58fe-4ba5-8ebe-edf20c99cbe7",
+            "Value": {
+                "id": "f192084c-0554-4db0-a8db-a0b4c7c4aa2a",
+                "resourcePath": "objects\\oUranusGrid\\oUranusGrid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7b8186c3-5a01-49cf-8aa7-85b6d8518827",
             "Value": {
                 "id": "e6f90588-b1fe-4c85-a0ad-46c067558b74",
@@ -975,6 +983,14 @@
             }
         },
         {
+            "Key": "b64bf4b0-2f97-49e0-b56e-0d17df04e960",
+            "Value": {
+                "id": "e6f7c047-45ea-4a43-b07f-c0c75ce437bf",
+                "resourcePath": "sprites\\sAI\\sAI.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7a60d5c-36c9-4aca-83b7-e26526129941",
             "Value": {
                 "id": "4e2cdc24-d9a1-4949-bd25-82e4b5ebd315",
@@ -1011,7 +1027,6 @@
             "Value": {
                 "id": "760a1199-4a65-4410-8ff8-a3a7fbbc6c89",
                 "resourcePath": "objects\/oAlien1\/oAlien1.yy",
-
                 "resourceType": "GMObject"
             }
         },
@@ -1109,6 +1124,14 @@
                 "id": "fc1adfea-33e7-4d93-83f2-c844ca08aa0f",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf2e4c81-1a0a-4c26-84bd-46d427a420d4",
+            "Value": {
+                "id": "3a4b81df-8044-4427-a43d-50a5ef66cef4",
+                "resourcePath": "objects\\oDiamond\\oDiamond.yy",
+                "resourceType": "GMObject"
             }
         },
         {

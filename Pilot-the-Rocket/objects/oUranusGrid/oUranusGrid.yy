@@ -1,28 +1,18 @@
 {
-    "id": "a51031de-ddfe-4b90-86a3-237e5f651632",
+    "id": "7b505396-58fe-4ba5-8ebe-edf20c99cbe7",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oUranusGrid",
     "eventList": [
         {
-            "id": "977490d2-317a-4569-b685-58af940943d2",
+            "id": "6ab947a9-c7fe-4200-b368-63a4111ca3f9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "a51031de-ddfe-4b90-86a3-237e5f651632"
-        },
-        {
-            "id": "6eac5d8c-eb5d-4f03-b72d-4d007fcd54a5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "a51031de-ddfe-4b90-86a3-237e5f651632"
+            "m_owner": "7b505396-58fe-4ba5-8ebe-edf20c99cbe7"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
