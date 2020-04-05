@@ -38,6 +38,7 @@ if(!collision) {
 		y += movespv;
 		image_index=1;
 	}
+<<<<<<< Updated upstream
 	
 	if(place_meeting(x,y,oDiamond)){
 		diamonds+=1;
@@ -52,6 +53,24 @@ if(!collision) {
 		success = true;
 	}
 	
+=======
+}
+
+if(place_meeting(x,y,oDiamond)){
+	diamonds+=1;
+	movespv += 0.5;
+	movesph += 0.5;
+}
+if(place_meeting(x,y,oUranusRocks)){
+	collision = true;
+	x = x+sign(movesph);
+	y = y+sign(movespv);
+}
+if(place_meeting(x,y, oUranus)){
+	collision = true;
+	x = x+sign(movesph);
+	success = true;
+>>>>>>> Stashed changes
 }
 
 if(collision){
@@ -62,6 +81,7 @@ if(collision){
 	}
 	else{
 		image_index=2;
+		room_goto(rUranus);
 		//hud fail
 	}
 }
