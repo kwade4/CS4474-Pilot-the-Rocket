@@ -2,7 +2,7 @@
 {
     "name": "rMercury",
     "id": "5c486593-65de-45ed-a7e8-7a4f409321fd",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

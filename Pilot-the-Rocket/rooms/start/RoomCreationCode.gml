@@ -1,10 +1,11 @@
 global.levelDifficulty = 0;
+global.currentLevel = 0;
 
 // levels: 0 = available, 1 = locked
 global.levels[0] = 0;	//placeholder
 global.levels[1] = 1;	//earth
 global.levels[2] = 1;	//mercury
-global.levels[3] = 0;	//venus
+global.levels[3] = 1;	//venus
 global.levels[4] = 0;	//mars
 global.levels[5] = 0;	//jupiter
 global.levels[6] = 0;	//saturn
