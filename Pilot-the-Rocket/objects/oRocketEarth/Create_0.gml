@@ -1,12 +1,11 @@
 image_xscale = 0.08;
 image_yscale = 0.08;
 
-sprite_index = s_rocket;
-hsp = 0;
-vsp = 0;
-movesph = 1;
-movespv = 0;
+fuel_amount = 150;  
+thrust = 10; 
+physics_mass_properties(1, 0, 675, 1); 
 
-inorbit=0;
+collision = false;
+touchEarth = false;
+success = false;
 
-image_angle=0;

@@ -1,82 +1,52 @@
-/// @description Insert description here
-// You can write your code in this editor
-hsp = 0;
-vsp = 0;
-movesph = 0;
-movespv = 0;
+if (!collision) {
+	image_index = 0;		// Rocket with no flames 
+	
+	if (fuel_amount > 0) {
+		
+		// Decrease fuel amount for the hard level 
+		if (global.levelDifficulty == 2 && (keyboard_check(vk_right) || keyboard_check(vk_left) 
+										|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
+			fuel_amount -= 0.5; 
+		}
+	
+		// Rotate right
+		if (keyboard_check(vk_right)) {
+			phy_rotation += 0.5; 
+			image_index = 1; 
+		}
 
-dir = 0;
+		// Rotate left
+		if (keyboard_check(vk_left)) {
+			phy_rotation -= 0.5; 
+			image_index = 1; 
+		}
 
-if(keyboard_check(vk_right)){
-	movesph = 4;
-	movespv = 0;
-	left = keyboard_check(vk_left);
-	right = keyboard_check(vk_right);
-	
-	//move horizontally
-	var move_h = right - left;
-	hsp = move_h * movesph;
-	vsp = 0;
-	x = x+movesph;
-	dir = 90;
-	
-	image_angle = -90;
-}
-if(keyboard_check(vk_left)){
-	movesph = -4;
-	movespv = 0;
-	left = keyboard_check(vk_left);
-	right = keyboard_check(vk_right);
-	
-	//move horizontally
-	var move_h = right - left;
-	hsp = move_h * movesph;
-	vsp = 0;
-	x = x+movesph;
-	
-	image_angle = 90;
-}
-//move up
-if (keyboard_check(vk_up))
-{
-	movespv = -4;
-	movesph = 0;
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
+		// Move up
+		if (keyboard_check(vk_up)) {
+			y_force = -thrust * dcos(phy_rotation);		// thrust * cos(angle)
+			x_force = thrust * dsin(phy_rotation);		// thrust * sin(angle) 
+			physics_apply_local_force(0, 0, x_force, y_force);
+			image_index = 1; 
+		}
 
-	//move vertically
-	var move_v = up - down;
-	vsp = move_v * movespv;
-	hsp = 0;
-	y = y+movespv;
-	
-	image_angle=0;
-}
-if(keyboard_check(vk_down)){
-	movespv = 4;
-	movesph = 0;
-	up = keyboard_check(vk_up);
-	down = keyboard_check(vk_down);
 
-	//move vertically
-	var move_v = up - down;
-	vsp = move_v * movespv;
-	hsp = 0;
-	y = y+movespv;
-	
-	image_angle=180;
+		// Move down
+		if (keyboard_check(vk_down)) {
+			y_force = thrust * dcos(phy_rotation);		// thrust * cos(angle)
+			x_force = -thrust * dsin(phy_rotation);		// thrust * sin(angle) 
+			physics_apply_local_force(0, 0, x_force, y_force);  
+			image_index = 1; 
+		}
+	}	
 }
 
-if(place_meeting(x,y,oEarthOrbit)){
-	inorbit=1;
-}
-
-if(place_meeting(x, y, oDocking) and inorbit==1){
-	room_goto(rLvEndScreen);
-}
-
-if(place_meeting(x, y, oEarth))
-{
-	instance_create_depth(x, y, 0, oBoom);
-	instance_destroy(oRocketEarth);
+if(collision) {
+	if(touchEarth=false){
+		success = true;
+		//collided to docking station
+	}
+	else{
+		success = false;
+		//collided to earth		
+	}
 }

@@ -415,14 +415,6 @@
             }
         },
         {
-            "Key": "655cb906-27a5-4d2b-969f-a1168f2020f2",
-            "Value": {
-                "id": "f0ed257d-8beb-4806-9ab1-2c0494cd8306",
-                "resourcePath": "sprites\\s_Boom\\s_Boom.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "66c7fd10-aa91-476e-96c3-919a1ff64b92",
             "Value": {
                 "id": "e10574f5-e124-472c-a0ba-a0139c020da6",
@@ -636,14 +628,6 @@
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
                 "resourcePath": "sprites\\s_NeptuneItems\\s_NeptuneItems.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9db826e1-6e12-4dc1-9be6-15bac6cc25e5",
-            "Value": {
-                "id": "31c4f972-fdaa-4820-9f23-041a0b96b391",
-                "resourcePath": "objects\\oBoom\\oBoom.yy",
-                "resourceType": "GMObject"
             }
         },
         {
