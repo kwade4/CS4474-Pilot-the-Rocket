@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "91e604b8-6053-401d-8f76-fa22b0b29585",
+            "Value": {
+                "id": "e342ab66-125a-4d70-bcfe-f73d12280123",
+                "resourcePath": "objects\\oRocketEarth\\oRocketEarth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "99a8e08a-546a-48c7-9ddc-522c202ed14b",
             "Value": {
                 "id": "e7e6fe09-cd24-4880-905d-4e31e6c66a86",

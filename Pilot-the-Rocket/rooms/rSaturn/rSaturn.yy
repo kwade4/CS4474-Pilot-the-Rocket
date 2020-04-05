@@ -2,7 +2,7 @@
 {
     "name": "rSaturn",
     "id": "c2cdf7db-3569-4400-badf-c23cf4295e3a",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
