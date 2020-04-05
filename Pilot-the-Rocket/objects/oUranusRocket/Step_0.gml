@@ -1,5 +1,9 @@
 if(!collision) {
 	image_index=0;
+	//start with idle positioned rocket
+	
+	
+	//for hard level, if they have fuel: reduce per movement
 	if(fuel_amount > 0){
 		if(global.currentLevel==2&& (keyboard_check(vk_right) || keyboard_check(vk_left) 
 										|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
@@ -58,13 +62,13 @@ if(!collision) {
 }
 
 if(collision){
-	instance_deactivate_object(oUranusAI);
+	instance_deactivate_object(oUranusAI); //stop 2nd rocket movement on path
 	
 	if(success==true and !reachGoalAI){
 		room_goto(rLvEndScreen);
 	}
 	else{
 		image_index=2;
-		//hud fail
+		room_restart()
 	}
 }
