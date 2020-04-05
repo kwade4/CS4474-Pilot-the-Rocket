@@ -71,7 +71,7 @@ if (keyboard_check(vk_down))
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
 if(place_meeting(x, y+movespv, oBounds))
 {
-	room_goto(rMercury);
+	room_goto(rJupiter);
 }
 	
 if(place_meeting(x+movesph, y, oSpaceStation))
@@ -87,7 +87,7 @@ if(place_meeting(x+movesph, y, oAsteroid))
 	{
 		x = x + sign(movesph);		
 	}
-	room_goto(rMercury);	
+	room_goto(rJupiter);	
 }
 //otherwise, rocket will move horizontally
 x = x + movesph;
@@ -100,7 +100,7 @@ if(place_meeting(x, y+movespv, oAsteroid))
 	{
 		y = y + sign(movespv);		
 	}
-	room_goto(rMercury);		
+	room_goto(rJupiter);		
 }
 //otherwise, player will move vertically
 y = y + movespv;
