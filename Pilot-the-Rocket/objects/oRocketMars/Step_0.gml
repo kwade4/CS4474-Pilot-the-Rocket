@@ -3,7 +3,8 @@ vsp = 0;
 movesph = 1;
 movespv = 0;
 sprite_index = s_rocketright;
-
+//Reset if fuel = 0
+if (global.fuel<=0){room_goto(rMars)}
 //move right
 if (keyboard_check(vk_right))
 {
