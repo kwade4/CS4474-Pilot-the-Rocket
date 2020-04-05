@@ -6,5 +6,6 @@ if(global.levelDifficulty != 2){
 }
 
 num = random_range(0.5,1.5);
+
 image_xscale = num;
 image_yscale = num;

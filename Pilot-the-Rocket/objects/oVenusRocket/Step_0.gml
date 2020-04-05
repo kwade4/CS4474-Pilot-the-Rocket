@@ -23,18 +23,14 @@ if (!collision) {
 
 		// Move up
 		if (keyboard_check(vk_up)) {
-			y_force = -thrust * dcos(phy_rotation);		// thrust * cos(angle)
-			x_force = thrust * dsin(phy_rotation);		// thrust * sin(angle) 
-			physics_apply_local_force(0, 0, x_force, y_force);
+			physics_apply_local_force(0, 0, 0, thrust);
 			image_index = 1; 
 		}
 
 
 		// Move down
-		if (keyboard_check(vk_down)) {
-			y_force = thrust * dcos(phy_rotation);		// thrust * cos(angle)
-			x_force = -thrust * dsin(phy_rotation);		// thrust * sin(angle) 
-			physics_apply_local_force(0, 0, x_force, y_force);  
+		if (keyboard_check(vk_down)) { 
+			physics_apply_local_force(0, 0, 0, -thrust);  
 			image_index = 1; 
 		}
 	}
@@ -52,6 +48,7 @@ if(collision) {
 	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.9; 
 	mission_success.image_yscale = 0.9; 
+	level_finished = true; 
 	
 	venus_altitude.value = 0;
 	
@@ -65,6 +62,3 @@ if(collision) {
 		mission_success.image_index = 0;		// display X on HUD
 	} 
 }
-
- 
-
