@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0641a164-1330-477e-9ce9-1ee1d3b9e9f0",
+            "Value": {
+                "id": "2e4ee542-a234-4086-8959-c2063bad05ba",
+                "resourcePath": "sprites\\sHUD\\sHUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09e458be-253c-4371-b261-c5ddc03fe07f",
             "Value": {
                 "id": "394942d8-b9bf-4a0b-a388-663792ebad35",
@@ -260,6 +268,14 @@
                 "id": "e08cdb6a-c89a-4169-ab85-f8873aad3d27",
                 "resourcePath": "sprites\/s_alien6\/s_alien6.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c1cb4ef-0b32-44eb-911f-2e08b86ed79f",
+            "Value": {
+                "id": "b4f417d6-b5ca-4daa-89f3-4df67041490e",
+                "resourcePath": "objects\\oDrawHUD\\oDrawHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
