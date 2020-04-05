@@ -2,8 +2,9 @@
 // You can write your code in this editor
 
 image_index = 0;
-
-global.pause = 1;
+room_goto(global.currentRoom)
+//global.pause = 1;
+/*
 if(global.currentLevel == 1){
 	room_goto(rEarth);
 }
@@ -27,4 +28,4 @@ else if(global.currentLevel == 7){
 }
 else if(global.currentLevel == 8){
 	room_goto(rNeptune);
-}
+}*/
