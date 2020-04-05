@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "1a2582a3-dd07-4784-91fc-3e341cf48631",
+            "Value": {
+                "id": "0f301e28-d4d5-423b-b865-c2919676ae06",
+                "resourcePath": "objects\\oHUDMissionStatus\\oHUDMissionStatus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1b8f1010-16fa-4e5f-9ab1-13ff4e4282cb",
+            "Value": {
+                "id": "0ac9f6e4-abc4-4e77-97a0-78cf1fb9a06c",
+                "resourcePath": "sprites\\sFuelGauge\\sFuelGauge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1cc7b4fe-9374-4299-9ab8-c58dac6aa2a8",
             "Value": {
                 "id": "8a697203-3443-4ab6-8eee-93e5e0dedf9a",
@@ -99,6 +115,14 @@
             "Value": {
                 "id": "eab11549-0c18-4d40-ab45-76a0668f5479",
                 "resourcePath": "sprites\/s_alien5\/s_alien5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "290996aa-9470-401b-8b86-3421075a13bb",
+            "Value": {
+                "id": "8f9324a6-197b-4fe4-a12b-237f8fc2923f",
+                "resourcePath": "sprites\\sMissionObjHUD\\sMissionObjHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,6 +247,22 @@
             }
         },
         {
+            "Key": "4a8df001-7b06-4fda-9d69-f60d44819f8d",
+            "Value": {
+                "id": "e5411245-4d17-4c8f-a44c-39a3987355a6",
+                "resourcePath": "sprites\\sFuelArrow\\sFuelArrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e8f9024-cb59-4b08-b180-5503a5eed655",
+            "Value": {
+                "id": "56cf1dfe-95fb-4876-bdb6-185b2e759af5",
+                "resourcePath": "sprites\\sHUDMissionStatus\\sHUDMissionStatus.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f47c4ad-e518-4b93-81ac-1be7c94e958b",
             "Value": {
                 "id": "1d8b3b0e-71ed-4237-b8d4-1ee9194436d0",
@@ -243,6 +283,14 @@
             "Value": {
                 "id": "c939e124-20e7-4724-8ab3-ac363b59db0f",
                 "resourcePath": "sprites\/s_rocketright\/s_rocketright.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5653cad6-41fe-47f9-a1bd-c2bb9047126c",
+            "Value": {
+                "id": "71145ccb-fc34-4555-b743-a991b6bcefb9",
+                "resourcePath": "sprites\\sNumberBox\\sNumberBox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -276,6 +324,22 @@
                 "id": "67966963-781e-4f23-b82c-544d2804fcc0",
                 "resourcePath": "rooms\/rMercury\/rMercury.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5cdeab43-f0d5-44e8-8a54-034ca1c31a17",
+            "Value": {
+                "id": "80bf27b3-bad9-4bc4-a3b6-55de21643c7a",
+                "resourcePath": "objects\\odrawHUD\\odrawHUD.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5d169839-8f59-4360-a1da-dc7c45ca0bf0",
+            "Value": {
+                "id": "b8d907aa-aad0-4594-bfc8-b1261ce0b022",
+                "resourcePath": "objects\\oMissionObjHUD\\oMissionObjHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -455,6 +519,14 @@
             }
         },
         {
+            "Key": "b9764321-f940-41d2-b466-82624ffa4c9b",
+            "Value": {
+                "id": "4d7d47e1-a31d-4f7c-9d44-d8b6f3400e80",
+                "resourcePath": "objects\\oValueBox\\oValueBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd6ee8b0-ca68-4fbb-a2de-4242cd77deab",
             "Value": {
                 "id": "25fd705b-cf54-4670-9cbe-396334ff38d6",
@@ -500,6 +572,14 @@
                 "id": "96b2366e-a542-45c7-bf2f-e36b5e801e86",
                 "resourcePath": "objects\/oCameraMars\/oCameraMars.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c823c80d-c7be-42f3-a389-a93dec4faa9f",
+            "Value": {
+                "id": "ab0bf641-86bb-497f-bb0f-750b72ff4744",
+                "resourcePath": "sprites\\sAltitudeHUD\\sAltitudeHUD.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,11 +647,27 @@
             }
         },
         {
+            "Key": "d1e67ba9-1115-4476-8b78-1fc2d699d10f",
+            "Value": {
+                "id": "6b9ef599-cbe8-463b-ab87-a58a24e5fca8",
+                "resourcePath": "objects\\oAngleArrow\\oAngleArrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d3cd54b3-cb46-4421-b63b-aa83a5d4c18f",
             "Value": {
                 "id": "b5573946-99e4-4e7f-8738-bc8374c78644",
                 "resourcePath": "sprites\/s_alien3\/s_alien3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d6b44490-fbcc-48b2-9b48-72affeaf8daa",
+            "Value": {
+                "id": "02a31e7c-2d35-4cd1-9523-2f0bb9e69291",
+                "resourcePath": "objects\\oGameHUD\\oGameHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -588,6 +684,22 @@
                 "id": "f36e61fe-94fc-467e-bb37-1f63d24b67ae",
                 "resourcePath": "sprites\/s_boom\/s_boom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db7f855f-40df-489f-bdb5-b1852a68e73a",
+            "Value": {
+                "id": "0da758b0-c46a-49ad-8eb9-1a2b5329d9b7",
+                "resourcePath": "objects\\oFuelGauge\\oFuelGauge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dc2d5708-f43c-4e78-977f-89ac4f867833",
+            "Value": {
+                "id": "74bd0044-cbad-4bee-8853-8a08a5d46002",
+                "resourcePath": "objects\\oAltitudeHUD\\oAltitudeHUD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -719,10 +831,34 @@
             }
         },
         {
+            "Key": "f86a68a2-f29f-4b04-9bb3-402d80783f72",
+            "Value": {
+                "id": "22c376d8-6965-4abc-940d-893697d0ca5d",
+                "resourcePath": "objects\\oFuelArrow\\oFuelArrow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8cafe8d-45d0-4bec-9d15-25e0486c027d",
+            "Value": {
+                "id": "7395b1fd-9942-4cf2-b3ca-b578de6acfa8",
+                "resourcePath": "sprites\\s_GameHUD\\s_GameHUD.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fc5f8b9e-5819-4ccc-8924-4c29f4a4555c",
             "Value": {
                 "id": "a1185fa7-54dd-422b-94b6-6fe42e5c9897",
                 "resourcePath": "sprites\/s_alien7\/s_alien7.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fcf854f6-dd83-43d8-bb02-9db2d77b31e3",
+            "Value": {
+                "id": "39006de7-b413-47ed-8d9f-ef13a4fde38e",
+                "resourcePath": "sprites\\s_angleArrow\\s_angleArrow.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -7,6 +7,7 @@ sprite_index = s_rocketright;
 //move right
 if (keyboard_check(vk_right))
 {
+	global.fuel=global.fuel-0.025;
 	movesph = 4;
 	movespv = 0;
 	left = keyboard_check(vk_left);
@@ -22,6 +23,7 @@ if (keyboard_check(vk_right))
 //move left
 if (keyboard_check(vk_left))
 {
+	global.fuel=global.fuel-0.025;
 	movesph = -4;
 	movespv = 0;
 	left = keyboard_check(vk_left);
@@ -37,6 +39,7 @@ if (keyboard_check(vk_left))
 //move up
 if (keyboard_check(vk_up))
 {
+	global.fuel=global.fuel-0.025;
 	movespv = -4;
 	movesph = 0;
 	up = keyboard_check(vk_up);
@@ -52,6 +55,7 @@ if (keyboard_check(vk_up))
 //move down
 if (keyboard_check(vk_down))
 {
+	global.fuel=global.fuel-0.025;
 	movespv = 4;
 	movesph = 0;
 	up = keyboard_check(vk_up);
@@ -67,7 +71,7 @@ if (keyboard_check(vk_down))
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
 if(place_meeting(x, y+movespv, oBounds))
 {
-	room_goto(rJupiter);
+	room_goto(rMercury);
 }
 	
 if(place_meeting(x+movesph, y, oSpaceStation))
@@ -83,7 +87,7 @@ if(place_meeting(x+movesph, y, oAsteroid))
 	{
 		x = x + sign(movesph);		
 	}
-	room_goto(rJupiter);	
+	room_goto(rMercury);	
 }
 //otherwise, rocket will move horizontally
 x = x + movesph;
@@ -96,7 +100,7 @@ if(place_meeting(x, y+movespv, oAsteroid))
 	{
 		y = y + sign(movespv);		
 	}
-	room_goto(rJupiter);		
+	room_goto(rMercury);		
 }
 //otherwise, player will move vertically
 y = y + movespv;
