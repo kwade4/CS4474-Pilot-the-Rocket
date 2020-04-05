@@ -4,10 +4,12 @@
 image_index = 0;
 
 if(global.currentLevel == 1){
-	room_goto(rEarth);
+	//room_goto(rEarth);
+	room_goto(rSaturn);
 }
 else if(global.currentLevel == 2){
-	room_goto(rMercury);
+	//room_goto(rMercury);
+	room_goto(rNeptune);
 }
 else if(global.currentLevel == 3){
 	room_goto(rVenus);
