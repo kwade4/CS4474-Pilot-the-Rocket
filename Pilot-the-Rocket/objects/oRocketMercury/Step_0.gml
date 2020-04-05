@@ -1,4 +1,4 @@
-hsp = 0;
+shsp = 0;
 vsp = 0;
 movesph = 1;
 movespv = 0;
