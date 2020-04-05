@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "580e3efb-97ac-4aab-a1fa-7a5150764de8",
+            "Value": {
+                "id": "67cbe335-6136-4f95-89f3-b66361657bf3",
+                "resourcePath": "objects\\oSolarWinds\\oSolarWinds.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a3a508f-99e2-40b7-99cf-017b8d6aba97",
             "Value": {
                 "id": "caed2689-fb72-4f5b-9cff-dc43218c887f",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "7f458b50-358b-4c8f-9127-3cb18e4d5d07",
+            "Value": {
+                "id": "5f9bed4c-a566-4187-8e96-d6572eb38f51",
+                "resourcePath": "objects\\oUranusRocks\\oUranusRocks.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "803aaf27-c5b4-474a-bce4-80161777ca7a",
             "Value": {
                 "id": "44aa29bc-ced7-4764-8064-15b1b9bc1324",
@@ -627,6 +643,22 @@
             "Value": {
                 "id": "e7e6fe09-cd24-4880-905d-4e31e6c66a86",
                 "resourcePath": "objects\\oActualExit\\oActualExit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9a701037-1642-4960-b04d-ed21fa5735c1",
+            "Value": {
+                "id": "cc324f45-ae49-45c7-a758-513b0701f1de",
+                "resourcePath": "objects\\oUranusRocket\\oUranusRocket.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9ca25c41-ae1f-4109-9703-ccb34be7705f",
+            "Value": {
+                "id": "aa099e58-91ab-474e-8f13-128b3d4f7338",
+                "resourcePath": "objects\\oUranusAI\\oUranusAI.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -783,6 +815,14 @@
             }
         },
         {
+            "Key": "b80bdd70-0974-400c-a015-d639041a5f99",
+            "Value": {
+                "id": "3953e639-e500-41ea-a8c2-eb6c0824d9f9",
+                "resourcePath": "sprites\\s_aiRocket\\s_aiRocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd6ee8b0-ca68-4fbb-a2de-4242cd77deab",
             "Value": {
                 "id": "25fd705b-cf54-4670-9cbe-396334ff38d6",
@@ -827,6 +867,14 @@
             "Value": {
                 "id": "66722e9a-f06b-41ce-aa9c-629343a8a869",
                 "resourcePath": "sprites\\sStartButton\\sStartButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c74b0de4-a040-4965-962a-3d83400be3b5",
+            "Value": {
+                "id": "bbd201ed-edcc-4b7a-abc0-4aaee1868764",
+                "resourcePath": "sprites\\sSolarWinds\\sSolarWinds.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1148,6 +1196,14 @@
                 "id": "d3af6cf2-11d3-4495-b7ba-d1eee44840d2",
                 "resourcePath": "views\/fe3ffe00-0003-4ae8-9be1-f2f5ad320b70.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fff756f4-a6f4-402d-a15b-8f7693ab50f9",
+            "Value": {
+                "id": "9d54e167-813b-4f86-97be-f7f7faa15e72",
+                "resourcePath": "objects\\oUranus\\oUranus.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
