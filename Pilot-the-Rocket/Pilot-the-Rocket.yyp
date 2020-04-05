@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1bfc8715-a5b5-469e-bf61-87c07e8312af",
+            "Value": {
+                "id": "28e73f1e-22f0-4f14-9676-77f47185e893",
+                "resourcePath": "paths\\pUranus\\pUranus.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "1cc7b4fe-9374-4299-9ab8-c58dac6aa2a8",
             "Value": {
                 "id": "8a697203-3443-4ab6-8eee-93e5e0dedf9a",
