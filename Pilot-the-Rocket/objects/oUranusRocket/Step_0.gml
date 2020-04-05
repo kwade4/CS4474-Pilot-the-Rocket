@@ -59,6 +59,12 @@ if(!collision) {
 		success = true;
 	}
 	
+	if(place_meeting(x,y, oBounds)){
+		collision = true;
+		x = x+sign(movesph);
+		y = y+sign(movespv);
+	}
+	
 }
 
 if(collision){
