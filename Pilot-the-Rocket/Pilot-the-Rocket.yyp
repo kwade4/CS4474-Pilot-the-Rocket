@@ -903,6 +903,14 @@
             }
         },
         {
+            "Key": "aa79b1e3-5e5d-4ac0-b08f-6f7487c3364c",
+            "Value": {
+                "id": "c5b8c035-910d-4cec-9f54-ce476d6ce21d",
+                "resourcePath": "sprites\\sHealthBar\\sHealthBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "adea011a-a34a-43b5-800a-39bc4b50c0b5",
             "Value": {
                 "id": "666f3283-1cac-4525-80b5-25210bd7d060",
@@ -1060,6 +1068,14 @@
                 "id": "cb4804ba-8300-4637-a5a5-214f994f40b9",
                 "resourcePath": "sprites\/s_asteroid\/s_asteroid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c29446f9-28f0-439b-906e-7bb95aa4861e",
+            "Value": {
+                "id": "b291b752-717d-4511-b45a-d63593572776",
+                "resourcePath": "objects\\oHealthBar\\oHealthBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
