@@ -6,5 +6,5 @@ fuel_amount = 150;
 
 hsp=0;
 vsp=0;
-movespv = 1;
-movesph = 1;
+movespv = 2;
+movesph = 2;

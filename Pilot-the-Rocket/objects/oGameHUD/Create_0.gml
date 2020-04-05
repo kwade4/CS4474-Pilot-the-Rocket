@@ -17,7 +17,7 @@ if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel 
 
 	// Show the appropriate mission objective for the level 
 	mission_objective.image_index = global.currentLevel - 1; 
-}
+
 
 
 // Position the alien status bar to move with the camera 
@@ -34,6 +34,8 @@ if (global.currentLevel == 4) {
 	alien_progress_bar.image_index = 0;			// show no aliens 
 	
 	
+}
+
 }
 
 
