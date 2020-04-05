@@ -41,14 +41,17 @@ if(!collision) {
 	
 	if(place_meeting(x,y,oDiamond)){
 		diamonds+=1;
-		movespv += 1;
-		movesph += 1;
+		movespv += 0.5;
+		movesph += 0.5;
 	}
 	if(place_meeting(x,y,oUranusRocks)){
 		collision = true;
+		x = x+sign(movesph);
+		y = y+sign(movespv);
 	}
 	if(place_meeting(x,y, oUranus)){
 		collision = true;
+		x = x+sign(movesph);
 		success = true;
 	}
 	
