@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01920777-53c3-4375-a483-f2e9c149692d",
+            "Value": {
+                "id": "38e9cd46-69ee-44a4-8598-872c617c1f42",
+                "resourcePath": "objects\\oHelpfulAstro\\oHelpfulAstro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c3731c3-4a97-4e83-97d2-a8d69661f3fa",
             "Value": {
                 "id": "25fbaecc-cc0d-4df5-9951-06b19933ee90",
@@ -239,6 +247,22 @@
             }
         },
         {
+            "Key": "5f637ff3-4565-437b-8884-35aa6f96523f",
+            "Value": {
+                "id": "0e1c3796-ce71-44f5-905c-8d4234793d07",
+                "resourcePath": "sprites\\s_TryAgain\\s_TryAgain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "60d5d167-9466-4e75-a83d-3beacc3dec66",
+            "Value": {
+                "id": "2274e225-3f5f-4891-bd26-7681b1e2bb62",
+                "resourcePath": "sprites\\sAstroExit\\sAstroExit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6918874d-c907-4d8a-82d0-3f0d80346b8a",
             "Value": {
                 "id": "e8aa31c1-9cdc-4f7c-9562-c47a4a7f1505",
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "8aa3ad2e-765e-4891-9775-af9928de8966",
+            "Value": {
+                "id": "5ce6de85-95f4-4d5e-9c65-b67cb185e9bb",
+                "resourcePath": "sprites\\sHelpBubble\\sHelpBubble.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8eb6bc47-ace9-472b-bb4b-cefc99e76c41",
             "Value": {
                 "id": "a26c757b-043c-477b-a5b6-2ae080b2e2f8",
@@ -439,6 +471,14 @@
             }
         },
         {
+            "Key": "b49398cd-42b5-46c5-904e-dd19ff6f15d9",
+            "Value": {
+                "id": "f0301033-ae21-4c8b-b6eb-540d428b47a0",
+                "resourcePath": "objects\\oAstroExit\\oAstroExit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b5126d55-0d98-4001-80e8-d6f3f9d04f91",
             "Value": {
                 "id": "12c72365-08e7-442b-bd4e-bfebfd0eae46",
@@ -460,6 +500,14 @@
                 "id": "05861f05-d175-4211-a76d-e46a61a8a646",
                 "resourcePath": "sprites\/s_mercury\/s_mercury.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c03621d0-4ca0-4283-98e3-aa785d36cca0",
+            "Value": {
+                "id": "0657ba27-3069-499c-98df-a08a8c770560",
+                "resourcePath": "objects\\oHelpBubble\\oHelpBubble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -676,6 +724,14 @@
                 "id": "9b4af19d-6da8-49ba-baa6-a0bd7ab34f0d",
                 "resourcePath": "sprites\\s_ActualExit\\s_ActualExit.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fce34d49-9a79-4b4c-90ad-f422d574c894",
+            "Value": {
+                "id": "009e40bf-ca87-4002-9f6e-65e0d2930c29",
+                "resourcePath": "objects\\oTryAgain\\oTryAgain.yy",
+                "resourceType": "GMObject"
             }
         },
         {
