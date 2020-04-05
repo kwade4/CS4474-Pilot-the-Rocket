@@ -1,18 +1,18 @@
 {
-    "id": "88ca785e-b1ea-42f9-9519-b2339a358668",
+    "id": "d5eb1a0f-6297-4038-8eff-f6ad856d0ca1",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oEarth",
     "eventList": [
         {
-            "id": "7141014f-7d9f-4734-9b30-a6f8983ec93d",
+            "id": "df8d8bf5-1bcd-44ef-9615-c51f06e2b1fd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "88ca785e-b1ea-42f9-9519-b2339a358668"
+            "m_owner": "d5eb1a0f-6297-4038-8eff-f6ad856d0ca1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

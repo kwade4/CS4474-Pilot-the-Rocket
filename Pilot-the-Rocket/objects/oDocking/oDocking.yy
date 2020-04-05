@@ -1,18 +1,18 @@
 {
-    "id": "9f7f04f9-8810-43c9-bee2-09cf692b6c10",
+    "id": "4aba0fbb-5ccc-4f74-b65c-60e305e91326",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oDocking",
     "eventList": [
         {
-            "id": "15e33ae5-ff1f-454d-b67b-445556c62be2",
+            "id": "19171223-9e36-4af4-9720-e776b0e5bde7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9f7f04f9-8810-43c9-bee2-09cf692b6c10"
+            "m_owner": "4aba0fbb-5ccc-4f74-b65c-60e305e91326"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "e3cc62b2-a13f-42f2-9ab1-9ec540d1bead",
+    "spriteId": "e50465f0-4d81-4af1-b8d7-5975db29b70e",
     "visible": true
 }

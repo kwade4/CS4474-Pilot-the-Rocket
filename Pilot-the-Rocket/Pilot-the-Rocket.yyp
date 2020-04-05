@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "4aba0fbb-5ccc-4f74-b65c-60e305e91326",
+            "Value": {
+                "id": "ad36298d-cf21-4da3-a6d5-67877d1a0334",
+                "resourcePath": "objects\\oDocking\\oDocking.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4c89c08d-5720-4b93-b048-cd914be1f61c",
             "Value": {
                 "id": "052fb810-99f1-402c-8787-418f562b193f",
@@ -495,6 +503,14 @@
             }
         },
         {
+            "Key": "78fb3594-033f-4910-bb75-72d2e8f47543",
+            "Value": {
+                "id": "70831207-97ee-4ccb-bee9-986cb5781c9c",
+                "resourcePath": "objects\\oEarthOrbit\\oEarthOrbit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7995f154-74cc-4c30-aedc-86f5294eb162",
             "Value": {
                 "id": "c9094caa-8050-4f31-995e-f81b051512d1",
@@ -620,6 +636,14 @@
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
                 "resourcePath": "sprites\\s_NeptuneItems\\s_NeptuneItems.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9db826e1-6e12-4dc1-9be6-15bac6cc25e5",
+            "Value": {
+                "id": "31c4f972-fdaa-4820-9f23-041a0b96b391",
+                "resourcePath": "objects\\oBoom\\oBoom.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -863,6 +887,14 @@
             }
         },
         {
+            "Key": "d5eb1a0f-6297-4038-8eff-f6ad856d0ca1",
+            "Value": {
+                "id": "c4f09e48-5cdb-4d27-ad79-89c85bbee252",
+                "resourcePath": "objects\\oEarth\\oEarth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7195231-c962-4803-910d-4c09b1822bf4",
             "Value": {
                 "id": "60921843-a614-4f9e-8e20-54bf84c644fa",
@@ -906,7 +938,7 @@
             "Key": "e50465f0-4d81-4af1-b8d7-5975db29b70e",
             "Value": {
                 "id": "07ffbdbc-3fa7-4367-a008-23fe3d2aa604",
-                "resourcePath": "sprites\\sprite54\\sprite54.yy",
+                "resourcePath": "sprites\\sdocking\\sdocking.yy",
                 "resourceType": "GMSprite"
             }
         },

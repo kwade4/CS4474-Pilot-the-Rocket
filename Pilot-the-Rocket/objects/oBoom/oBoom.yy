@@ -1,18 +1,18 @@
 {
-    "id": "b17f87c7-7873-4908-9d4a-137fa81fc7de",
+    "id": "9db826e1-6e12-4dc1-9be6-15bac6cc25e5",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oBoom",
     "eventList": [
         {
-            "id": "2e14e93f-a330-4479-9717-1bb9dee22742",
+            "id": "17cbc270-8513-4d3a-aca6-7cd5cb80b656",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b17f87c7-7873-4908-9d4a-137fa81fc7de"
+            "m_owner": "9db826e1-6e12-4dc1-9be6-15bac6cc25e5"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b79f1cd2-410a-4ce3-97fc-9f11a4e9f5d6",
+    "spriteId": "655cb906-27a5-4d2b-969f-a1168f2020f2",
     "visible": true
 }
