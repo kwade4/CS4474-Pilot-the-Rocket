@@ -2,7 +2,7 @@
 {
     "name": "rMars",
     "id": "c5ed7036-4d27-4144-a197-eeb03494834b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

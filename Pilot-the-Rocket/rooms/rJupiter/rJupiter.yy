@@ -2,7 +2,7 @@
 {
     "name": "rJupiter",
     "id": "cf90637f-c3c0-487e-8e9d-16454d6efe6d",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
