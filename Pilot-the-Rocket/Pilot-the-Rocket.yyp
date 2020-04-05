@@ -1095,6 +1095,14 @@
             }
         },
         {
+            "Key": "d09e30c7-d1ee-46ad-9e8a-465a9cb4950d",
+            "Value": {
+                "id": "27616a2a-a566-47d3-a717-9e0a670d73eb",
+                "resourcePath": "sprites\/s_spacestation\/s_spacestation.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d20a676f-82ac-4bd9-9237-fbfe2432b746",
             "Value": {
                 "id": "12c4afbe-2128-446a-bd4b-285e610543b2",
