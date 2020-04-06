@@ -14,5 +14,3 @@ collision = false;
 onEarth = true;
 success = false; 
 takeoff = false;
-
-dist_earth_to_rocket = 0;
