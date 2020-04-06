@@ -11,3 +11,4 @@ collision = false;
 success = false; 
 
 fuel_amount = 150; 
+boom = 0;

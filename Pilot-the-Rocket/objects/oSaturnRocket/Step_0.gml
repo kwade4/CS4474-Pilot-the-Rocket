@@ -84,6 +84,12 @@ if(fuel_amount == 0 or global.SaturnHealth < 0) {
 	
 	else {
 		mission_success.image_index = 0;		// display X on HUD
+		if(!audio_is_playing(snd_4) and boom = 0){
+			audio_play_sound(snd_4, 1000, false);
+			boom += 1;
+		}
+		sprite_index = s_explode;
+		physics_pause_enable(true);
 		with(oHelpfulAstro){
 			instance_create_depth(x + 150, y - 222, -100, oHelpBubble);
 			oHelpBubble.text = "Oh no! The rings of Saturn are hot.\nRemember to avoid them.\nTry again?!";
