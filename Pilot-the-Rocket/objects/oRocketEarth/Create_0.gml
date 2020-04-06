@@ -17,4 +17,4 @@ success = false;
 takeoff = false;
 noFuel = false;
 
-beenHere = true;
+global.resumeRoom = true;

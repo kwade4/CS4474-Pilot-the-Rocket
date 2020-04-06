@@ -3,3 +3,4 @@
 
 image_index = 1;
 room_goto(rMenu);
+global.resumeRoom = false;
