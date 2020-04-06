@@ -1,9 +1,7 @@
+if (global.fuel<=0&&global.levelDifficulty==2){//reset level
+	}
 if(!collision) {
 	image_index=0;
-	//start with idle positioned rocket
-	
-	
-	//for hard level, if they have fuel: reduce per movement
 	if(fuel_amount > 0){
 		if(global.currentLevel==2&& (keyboard_check(vk_right) || keyboard_check(vk_left) 
 										|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
@@ -12,6 +10,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_left)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
+		global.fuel=global.fuel-0.025;
 		hsp = hor_d * movesph;
 		vsp = 0;
 
@@ -21,6 +20,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_right)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
+		global.fuel=global.fuel-0.025;
 		hsp = hor_d * movesph;
 		vsp = 0;
 		x += movesph;
@@ -28,6 +28,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_up)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
+		global.fuel=global.fuel-0.025;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -36,6 +37,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_down)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
+		global.fuel=global.fuel-0.025;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -59,22 +61,21 @@ if(!collision) {
 		success = true;
 	}
 	
-	if(place_meeting(x,y, oBounds)){
-		collision = true;
-		x = x+sign(movesph);
-		y = y+sign(movespv);
-	}
-	
 }
 
 if(collision){
-	instance_deactivate_object(oUranusAI); //stop 2nd rocket movement on path
+	instance_deactivate_object(oUranusAI);
+	
 	
 	if(success==true and !reachGoalAI){
+		global.status=1; 
+		global.statusVisible=1;
 		room_goto(rLvEndScreen);
 	}
 	else{
+		global.status=0; 
+		global.statusVisible=1;
 		image_index=2;
-		room_restart()
+		//hud fail
 	}
 }
