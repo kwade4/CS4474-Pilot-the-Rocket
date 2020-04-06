@@ -6,7 +6,7 @@ image_speed = 0;
 
 global.itemsCollected = 0
 fuel_amount = 150;
-
+alarmSet = false;
 hsp = 0; //horizontal speed 
 vsp = 0; //vertical speed
 mvSp = 4;

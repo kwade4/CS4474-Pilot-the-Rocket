@@ -1,7 +1,7 @@
 collision = false;
 diamonds = 0;
 success = false;
-
+alarmSet = false;
 fuel_amount = 150;
 
 hsp=0;

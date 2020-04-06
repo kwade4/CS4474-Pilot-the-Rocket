@@ -37,7 +37,15 @@ else{
 
 
 if(global.itemsCollected = 6){
-	room_goto(rLvEndScreen);	
+	with(oHelpfulAstro){
+		instance_create_depth(x + 150, y - 222, -100, oWinBubble);
+		oWinBubble.text = "Mission Accomplished!\nLoading mission debrief...";
+	}
+		
+	if(!alarmSet){
+		alarm[0] = room_speed * 3;
+		alarmSet = true;
+	}
 }
 
 

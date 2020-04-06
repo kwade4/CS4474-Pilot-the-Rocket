@@ -79,7 +79,18 @@ if(collision){
 	if(success==true and !reachGoalAI){
 		global.status=1; 
 		global.statusVisible=1;
-		room_goto(rLvEndScreen);
+		global.paused = true;
+		with(oHelpfulAstro){
+			tid = instance_create_depth(x + 70.5, y - 126, -100, oWinBubble);
+			tid.text = "Mission Accomplished!\nLoading mission debrief...";
+			tid.image_xscale = 0.47;
+			tid.image_yscale = 0.57;
+		}
+		
+		if(!alarmSet){
+			alarm[0] = room_speed * 3;
+			alarmSet = true;
+		}	
 	}
 	else{
 		global.status=0; 

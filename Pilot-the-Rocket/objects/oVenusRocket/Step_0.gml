@@ -55,8 +55,17 @@ if(collision) {
 	if(success) {
 		mission_success.image_index = 1;		// display checkmark on HUD
 		venus_y_velo.value = 0;
-		venus_x_velo.value = 0; 
-		room_goto(rLvEndScreen); 
+		venus_x_velo.value = 0;
+		with(oHelpfulAstro){
+			instance_create_depth(x + 150, y - 222, -100, oWinBubble);
+			oWinBubble.text = "Mission Accomplished!\nLoading mission debrief...";
+		}
+		
+		if(!alarmSet){
+			alarm[0] = room_speed * 3;
+			alarmSet = true;
+		}
+		
 	}
 	
 	else {
