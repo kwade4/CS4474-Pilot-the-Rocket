@@ -41,10 +41,9 @@ if(!takeoff){
 		//at least more than 2 room cell away from each other
 		takeoff =  true;
 		}
-	}
-	
-	if(fuel_amount == 0) {
+	}else{
 		success = false;
+		noFuel = true;
 	}
 	
 	// Update the fuel gauge 
@@ -55,7 +54,6 @@ if(!takeoff){
 	earth_y_velo.value = abs(phy_speed_y);
 	
 }
-
 
 else{
 	if (!collision and !oobCollision) {
@@ -98,7 +96,6 @@ else{
 				physics_apply_local_force(0, 0, x_force, y_force);  
 				image_index = 1; 
 			}
-		}
 		
 		if(place_meeting(x,y,oDocking)){
 			success = true;
@@ -112,9 +109,10 @@ else{
 			success = false;
 			collision = true;
 		}
-		
-		if(fuel_amount == 0) {
-			success = false; 
+		}
+		else{
+			success = false;
+			noFuel = true;
 		}
 		
 		// Update the fuel gauge 
@@ -143,7 +141,7 @@ else{
 			global.paused = true;
 			if(oobCollision){
 				text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
-			} else {
+			}else{
 				text = "Oh no! You've collided with Earth.\nTry again?";
 			}
 		
@@ -155,4 +153,18 @@ else{
 	}
 }
 
+if(noFuel){
+	physics_pause_enable(true);
 
+	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
+	mission_success.image_xscale = 0.9; 
+	mission_success.image_yscale = 0.9; 
+		
+	mission_success.image_index = 0;
+	global.paused = true;
+	text="Oh no! You've run out of fuel.\n Try again?";
+	with(oHelpfulAstro){
+	instance_create_depth(x + 150, y - 222, -100, oHelpBubble);
+	oHelpBubble.text = other.text;
+	}
+}

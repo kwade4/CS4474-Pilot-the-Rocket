@@ -14,3 +14,6 @@ collision = false;
 onEarth = true;
 success = false; 
 takeoff = false;
+noFuel = false;
+
+beenHere = true;
