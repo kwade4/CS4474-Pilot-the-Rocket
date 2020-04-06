@@ -4,16 +4,18 @@ if(!resumeRoom){
 	resumeRoom=true;
 	room_restart();
 }
+if (fuel_amount > 0) { 
+	key_left = keyboard_check(vk_left); //checks if virtual keyboard left is pressed
+	key_right = keyboard_check(vk_right);
+	var moveh = key_right - key_left;
+	hsp = moveh * mvSp;	
+	key_up = keyboard_check(vk_up); //checks if virtual keyboard left is pressed
+	key_down = keyboard_check(vk_down);
+	var movev = key_down - key_up;
+	vsp = movev * mvSp;
+	path_speed = moveh*2;
+}
 
-key_left = keyboard_check(vk_left); //checks if virtual keyboard left is pressed
-key_right = keyboard_check(vk_right);
-var moveh = key_right - key_left;
-hsp = moveh * mvSp;	
-key_up = keyboard_check(vk_up); //checks if virtual keyboard left is pressed
-key_down = keyboard_check(vk_down);
-var movev = key_down - key_up;
-vsp = movev * mvSp;
-path_speed = moveh*2;
 
 
 if (fuel_amount > 0) {
@@ -28,8 +30,8 @@ if (fuel_amount > 0) {
 oGameHUD.fuel_gauge.image_index = (floor(fuel_amount / 21.43)); 
 
 // Update values in the HUD 
-nep_x_velo.value = x;
-nep_y_velo.value = y; 
+nep_x_velo.value = abs(0.25* hsp * x);
+nep_y_velo.value = abs(0.25 * vsp * y); 
 
 /*if(place_meeting(x, y, oNeptuneRing)){
 	image_index = 0;	
@@ -66,5 +68,8 @@ if (fuel_amount == 0) {
 	
 	else {
 		mission_success.image_index = 0;		// display X on HUD
+		hsp = 0;
+		vsp = 0; 
+		path_speed = 0; 	
 	}
 }

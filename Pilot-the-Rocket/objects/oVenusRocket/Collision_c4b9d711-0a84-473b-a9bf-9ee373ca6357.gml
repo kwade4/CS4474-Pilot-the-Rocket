@@ -8,6 +8,7 @@ if (abs(phy_speed_x) > 1 || abs(phy_speed_y) > 1) {
 		oHelpBubble.text = "Oh no! The crew didn't make it.\nYou'll have to slow your decent.\nBetter luck next time!";
 	}
 	success = false; 
+	audio_play_sound(snd_4, 20, false);
 }
 
 else {

@@ -31,6 +31,11 @@ if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel 
 		
 		alien_progress_bar.x = x + (387 - 288);
 		alien_progress_bar.y = y + (320 - 357);
+		
+		// Set separate instructions for easy
+		if (global.levelDifficulty == 0) {
+			mission_objective.image_index = 8; 
+		}
 	}
 	
 	else if (global.currentLevel == 5) {
