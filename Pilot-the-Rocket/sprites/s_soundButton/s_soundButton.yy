@@ -2,7 +2,7 @@
     "id": "70067a1d-b5b4-4b16-b270-7f6965ed716c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite84",
+    "name": "s_soundButton",
     "For3D": false,
     "HTile": false,
     "VTile": false,
