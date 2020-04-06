@@ -42,6 +42,11 @@ else{
 
 
 if(global.itemsCollected = 6){
+	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
+	mission_success.image_xscale = 0.9; 
+	mission_success.image_yscale = 0.9;
+	mission_success.image_index = 1;		// display checkmark on HUD
+
 	with(oHelpfulAstro){
 		instance_create_depth(x + 150, y - 222, -100, oWinBubble);
 		oWinBubble.text = "Mission Accomplished!\nLoading mission debrief...";
@@ -62,8 +67,6 @@ if (fuel_amount == 0) {
 	
 	if(success) {
 		mission_success.image_index = 1;		// display checkmark on HUD
-		saturn_y_velo.value = 0;
-		saturn_x_velo.value = 0; 
 	}
 	
 	else {
