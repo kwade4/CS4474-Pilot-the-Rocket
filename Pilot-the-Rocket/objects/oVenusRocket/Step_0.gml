@@ -3,7 +3,7 @@ if(!resumeRoom){
 	room_restart();
 }
 
-if (!collision) {
+if (!collision and !oobCollision) {
 	image_index = 0;		// Rocket with no flames 
 	
 	if (fuel_amount > 0) {
@@ -49,7 +49,11 @@ venus_x_velo.value = phy_speed_x;
 venus_y_velo.value = phy_speed_y; 
 venus_altitude.value = abs(oVenusSurface.phy_position_y - 208.62 - phy_position_y);
 
-if(collision) {
+if(place_meeting(x, y, oBounds)){
+	oobCollision = true;	
+}
+
+if(collision or oobCollision) {
 	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.9; 
 	mission_success.image_yscale = 0.9; 
@@ -75,7 +79,15 @@ if(collision) {
 	}
 	
 	else {
+		physics_pause_enable(true);	
 		mission_success.image_index = 0;		// display X on HUD
+		if(oobCollision){
+			global.paused = true;
+			with(oHelpfulAstro){
+				instance_create_depth(x + 150, y - 222, -100, oHelpBubble);
+				oHelpBubble.text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
+			}
+		}
 	} 
 }
 
