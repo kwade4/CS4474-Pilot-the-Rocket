@@ -26,4 +26,7 @@ if(!global.paused){
 
 	oHelpfulAstro.y = y + 150;
 	oHelpfulAstro.x = x - 240;
+	
+	oSettingsButton.y = y - halfViewHeight + 40;
+	oSettingsButton.x = x - halfViewWidth + 550;
 }
