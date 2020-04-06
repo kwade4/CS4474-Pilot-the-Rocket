@@ -18,7 +18,7 @@ if (fuel_amount > 0) {
 	// Decrease fuel amount for the hard level 
 	if (global.levelDifficulty == 2 && (keyboard_check(vk_right) || keyboard_check(vk_left) 
 									|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
-		fuel_amount -= 0.5; 
+		fuel_amount -= 0.1; 
 	}
 		
 	// Move up

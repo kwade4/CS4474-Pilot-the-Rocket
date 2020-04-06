@@ -3,19 +3,18 @@ if(!resumeRoom){
 	room_restart();
 }
 
-if (global.fuel<=0&&global.levelDifficulty==2){room_goto(rLvEndScreen);
-	}
-if(!collision) {
+
+if(!collision and !global.paused) {
 	image_index=0;
-	if(fuel_amount > 0){
+	if(global.fuel > 0){
 		if(global.currentLevel==2&& (keyboard_check(vk_right) || keyboard_check(vk_left) 
 										|| keyboard_check(vk_up) || keyboard_check(vk_down))) {
-			fuel_amount -= 0.5; 
+			global.fuel -= 0.1; 
 		}
 	}
 	if(keyboard_check(vk_left)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
-		global.fuel=global.fuel-0.03;
+		global.fuel -= 0.01;
 		hsp = hor_d * movesph;
 		vsp = 0;
 
@@ -25,7 +24,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_right)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
-		global.fuel=global.fuel-0.03;
+		global.fuel -= 0.01;
 		hsp = hor_d * movesph;
 		vsp = 0;
 		x += movesph;
@@ -33,7 +32,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_up)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
-		global.fuel=global.fuel-0.03;
+		global.fuel -= 0.01;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -42,7 +41,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_down)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
-		global.fuel=global.fuel-0.03;
+		global.fuel -= 0.01;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -82,7 +81,7 @@ if(!collision) {
 	
 }
 
-if(collision or aiWins or oobCollision){
+if(collision or aiWins or oobCollision or global.fuel <= 0){
 	instance_deactivate_object(oUranusAI);
 		
 	if(success==true and !aiWins){
@@ -109,7 +108,7 @@ if(collision or aiWins or oobCollision){
 
 		global.paused = true;
 		//mission_success.image_index = 0;		// display X on HUD
-		if(fuel_amount == 0){
+		if(global.fuel <= 0){
 			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
 		} else if collision {
 			text = "Oh no! You've collided with\nan asteroid. Try again?"	
