@@ -1,4 +1,4 @@
-if (global.fuel<=0&&global.levelDifficulty==2){//reset level
+if (global.fuel<=0&&global.levelDifficulty==2){room_goto(rLvEndScreen);
 	}
 if(!collision) {
 	image_index=0;
@@ -10,7 +10,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_left)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
-		global.fuel=global.fuel-0.025;
+		global.fuel=global.fuel-0.03;
 		hsp = hor_d * movesph;
 		vsp = 0;
 
@@ -20,7 +20,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_right)){
 		var hor_d = keyboard_check(vk_right) - keyboard_check(vk_left);
-		global.fuel=global.fuel-0.025;
+		global.fuel=global.fuel-0.03;
 		hsp = hor_d * movesph;
 		vsp = 0;
 		x += movesph;
@@ -28,7 +28,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_up)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
-		global.fuel=global.fuel-0.025;
+		global.fuel=global.fuel-0.03;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -37,7 +37,7 @@ if(!collision) {
 	}
 	if(keyboard_check(vk_down)){
 		var ver_d = keyboard_check(vk_up) - keyboard_check(vk_down);
-		global.fuel=global.fuel-0.025;
+		global.fuel=global.fuel-0.03;
 		vsp = ver_d * movespv;
 		hsp = 0;
 		
@@ -60,6 +60,16 @@ if(!collision) {
 		x = x+sign(movesph);
 		success = true;
 	}
+	if (vsp==0 && hsp!=0){
+		if(hsp<0){global.x_velocity=hsp*-1;}
+		else{global.x_velocity=hsp;}}
+	if (hsp==0 && vsp!=0){
+		if(vsp<0){global.y_velocity=vsp*-1;}
+		else{global.y_velocity=vsp;}}
+	if keyboard_check(vk_nokey){
+		global.x_velocity=0;
+		global.y_velocity=0;
+		}
 	
 }
 
