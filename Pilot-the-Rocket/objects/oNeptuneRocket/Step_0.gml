@@ -42,6 +42,18 @@ if(global.itemsCollected = 6){
 
 
 if (fuel_amount == 0) {
-	success = false;
-	// Friendly astronaut guy
+	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
+	mission_success.image_xscale = 0.9; 
+	mission_success.image_yscale = 0.9; 
+	success = false; 
+	
+	if(success) {
+		mission_success.image_index = 1;		// display checkmark on HUD
+		saturn_y_velo.value = 0;
+		saturn_x_velo.value = 0; 
+	}
+	
+	else {
+		mission_success.image_index = 0;		// display X on HUD
+	}
 }
