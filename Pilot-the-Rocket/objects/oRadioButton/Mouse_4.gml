@@ -8,7 +8,7 @@ if(position_meeting(mouse_x, mouse_y, id)){
 	global.levels[2] = 0;	//mercury
 	global.levels[3] = 0;	//venus
 	global.levels[4] = 0;	//mars
-	global.levels[5] = 1;	//jupiter
+	global.levels[5] = 0;	//jupiter
 	global.levels[6] = 0;	//saturn
 	global.levels[7] = 0;	//uranus
 	global.levels[8] = 0;	//neptune
