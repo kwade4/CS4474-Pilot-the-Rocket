@@ -3,19 +3,23 @@
 /// @description HUD Object Add to every level
 //draw_sprite_ext(sprite, index of image, x position in camera, y position in camera, size multiplier x,  size multiplier y, rotation(0), -1, transparency);
 //Same every time -> HUD Base 
-draw_sprite_ext(sHUD, 0, 522, 700, 0.50, 0.50, 0, -1, 1);
+draw_sprite_ext(sHUD, 0, 650, 625, 0.60, 0.60, 0, -1, 1);
 //**Change OPTION(2) for specified level -> Objective
-draw_sprite_ext(sMissionObjHUD, 8, 455, 640, 0.75, 0.75, 0, -1, 1);
+draw_sprite_ext(sMissionObjHUD, 6, 655, 630, 0.75, 0.75, 0, -1, 1);
 //**Add to rocket Object -> Succes/ Failure ->Check for instruct below
-draw_sprite_ext(sHUDMissionStatus, global.status, 440, 640, 0.75, 0.75, 0, -1, global.statusVisible);
+draw_sprite_ext(sHUDMissionStatus, global.status, 640, 630, 0.75, 0.75, 0, -1, global.statusVisible);
 //**Add to rocket Object -> Fuel
-draw_sprite_ext(sFuelGauge, global.fuel, 760, 680, 0.55, 0.55, 0, -1, 1);
+if (global.levelDifficulty==2){
+	draw_sprite_ext(sFuelGauge, global.fuel, 915, 660, 0.55, 0.55, 0, -1, 1);
+	}
+else{draw_sprite_ext(sFuelGauge, 0, 915, 660, 0.55, 0.55, 0, -1, 1);
+	}
 //**Add to rocket Object -> altitude
-draw_text(190, 715,"MAX")
+draw_text(260, 650,"MAX")
 //**Add to rocket Object -> x velocity
-draw_text(357, 715,global.fuel)
+draw_text(450, 650,global.fuel)
 //**Add to rocket Object -> y velocity
-draw_text(688, 715,global.fuel)
+draw_text(850, 650,global.fuel)
 
 
 //***Just for reference, if adjusting fuel
