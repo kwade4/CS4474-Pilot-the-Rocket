@@ -46,4 +46,7 @@ neptune.text = "Level 8:\nNeptune";
 neptune.textYOffset = 130;
 neptune.levelIndex = 8;
 
-audio_play_sound(snd_1, 10, true);
+if (!sound_isplaying(snd_1))
+{
+	audio_play_sound(snd_1, 10, true);
+}
