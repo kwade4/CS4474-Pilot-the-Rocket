@@ -59,6 +59,7 @@ if(!collision) {
 		collision = true;
 		x = x+sign(movesph);
 		y = y+sign(movespv);
+		audio_play_sound(snd_4, 11, false);
 	}
 	if(place_meeting(x,y, oUranus)){
 		collision = true;
