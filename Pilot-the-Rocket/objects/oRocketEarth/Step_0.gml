@@ -42,7 +42,21 @@ if(!takeoff){
 		takeoff =  true;
 		}
 	}
+	
+	if(fuel_amount == 0) {
+		success = false;
+	}
+	
+	// Update the fuel gauge 
+	oGameHUD.fuel_gauge.image_index = (floor(fuel_amount / 21.43)); 
+	
+	// Update values in the HUD 
+	earth_x_velo.value = abs(phy_speed_x);
+	earth_y_velo.value = abs(phy_speed_y);
+	
 }
+
+
 else{
 	if (!collision and !oobCollision) {
 	image_index = 0;		// Rocket with no flames 
@@ -85,6 +99,7 @@ else{
 				image_index = 1; 
 			}
 		}
+		
 		if(place_meeting(x,y,oDocking)){
 			success = true;
 			collision = true;
@@ -97,12 +112,34 @@ else{
 			success = false;
 			collision = true;
 		}
+		
+		if(fuel_amount == 0) {
+			success = false; 
+		}
+		
+		// Update the fuel gauge 
+		oGameHUD.fuel_gauge.image_index = (floor(fuel_amount / 21.43)); 
+	
+		// Update values in the HUD 
+		earth_x_velo.value = abs(phy_speed_x);
+		earth_y_velo.value = abs(phy_speed_y);
 	}
+	
+	
 	else{
+		
+		// Show mission result on HUD
+		mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
+		mission_success.image_xscale = 0.9; 
+		mission_success.image_yscale = 0.9; 
+		
 		//rocket collided
 		if(success = true){
+			mission_success.image_index = 1;		// display checkmark on HUD 
 			room_goto(rLvEndScreen);
+			
 		}else{
+			mission_success.image_index = 0;		// display X on HUD
 			global.paused = true;
 			if(oobCollision){
 				text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
@@ -117,3 +154,5 @@ else{
 		}
 	}
 }
+
+
