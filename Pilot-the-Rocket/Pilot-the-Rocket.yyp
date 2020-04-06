@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "4df7d2a2-4388-4564-b71f-d1b686271b5b",
+            "Value": {
+                "id": "6f5011b3-1cf4-45fd-b9bd-72bfeb240086",
+                "resourcePath": "sprites\\s_actualChangeDiff\\s_actualChangeDiff.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4f47c4ad-e518-4b93-81ac-1be7c94e958b",
             "Value": {
                 "id": "1d8b3b0e-71ed-4237-b8d4-1ee9194436d0",
@@ -572,6 +580,14 @@
                 "id": "67966963-781e-4f23-b82c-544d2804fcc0",
                 "resourcePath": "rooms\/rMercury\/rMercury.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5cc58328-9867-4847-8fc1-2562698ca39b",
+            "Value": {
+                "id": "3cd1c599-ea17-4249-ace2-1eeeefe68c6c",
+                "resourcePath": "sprites\\s_checkChangeDiff\\s_checkChangeDiff.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1435,6 +1451,14 @@
             "Value": {
                 "id": "5b226575-1da1-4b17-8113-7836e9419fdb",
                 "resourcePath": "sprites\/s_StartGameButton\/s_StartGameButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e21f2f58-494b-4cd9-b537-15a30a1b7354",
+            "Value": {
+                "id": "19f009a6-b1ef-459b-9946-e5343e89cf18",
+                "resourcePath": "sprites\\s_ChangeDiff\\s_ChangeDiff.yy",
                 "resourceType": "GMSprite"
             }
         },
