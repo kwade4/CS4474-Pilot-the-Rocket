@@ -9,6 +9,7 @@ movespv = 1;
 hsp=0;
 vsp=0;
 
+oobCollision = false;
 collision = false;
 onEarth = true;
 success = false; 

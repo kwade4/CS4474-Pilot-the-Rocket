@@ -34,3 +34,8 @@ mediumButton.selected = false;
 hardButton = instance_create_depth(600, 380, 0, oRadioButton);
 hardButton.label = "hard";
 hardButton.selected = false;
+
+if (!audio_is_playing(snd_1))
+{
+	audio_play_sound(snd_1, 10, true);
+}

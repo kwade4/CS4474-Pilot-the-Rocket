@@ -56,6 +56,7 @@ if(collision) {
 		mission_success.image_index = 1;		// display checkmark on HUD
 		venus_y_velo.value = 0;
 		venus_x_velo.value = 0; 
+		room_goto(rLvEndScreen); 
 	}
 	
 	else {

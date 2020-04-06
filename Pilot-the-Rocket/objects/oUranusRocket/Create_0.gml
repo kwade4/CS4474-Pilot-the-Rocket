@@ -8,3 +8,6 @@ hsp=0;
 vsp=0;
 movespv = 2;
 movesph = 2;
+global.fuel=7;
+global.status=0; 
+global.statusVisible=0;

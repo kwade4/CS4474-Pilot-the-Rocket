@@ -50,7 +50,7 @@ merc_y_velo.value = phy_speed_y;
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
 if(place_meeting(x, y, oBounds)) {
-	collision = true; 
+	oobCollision = true; 
 	success = false; 
 }
 
@@ -58,13 +58,14 @@ if(place_meeting(x, y, oBounds)) {
 if(place_meeting(x, y, oAsteroid)) {
 	collision = true;
 	success = false; 
+	sprite_index = s_explode;
 }
 
 if(place_meeting(x, y, oMercury)) {
 	success = true; 
 }
 
-if(fuel_amount == 0 or collision or success) { 
+if(fuel_amount == 0 or collision or success or oobCollision) { 
 	physics_pause_enable(true); 
 	mission_success = instance_create_depth(oGameHUD.x-32, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.45; 
@@ -78,7 +79,20 @@ if(fuel_amount == 0 or collision or success) {
 	}
 	
 	else {
+		global.paused = true;
 		mission_success.image_index = 0;		// display X on HUD
-		room_goto(rLvInstructions);
+		if(fuel_amount == 0){
+			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
+		} else if collision {
+			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+		} else {
+			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?"	
+		}
+		with(oHelpfulAstro){
+			tid = instance_create_depth(x + 70.5, y - 126, -100, oHelpBubble);
+			tid.image_xscale = 0.47;
+			tid.image_yscale = 0.57;
+			oHelpBubble.text = other.text;
+		}
 	} 
 }

@@ -10,7 +10,7 @@ key_up = keyboard_check(vk_up); //checks if virtual keyboard left is pressed
 key_down = keyboard_check(vk_down);
 var movev = key_down - key_up;
 vsp = movev * mvSp;
-path_speed = moveh;
+path_speed = moveh*2;
 
 
 /*if(place_meeting(x, y, oNeptuneRing)){
