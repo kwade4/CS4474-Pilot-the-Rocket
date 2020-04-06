@@ -44,10 +44,10 @@ uranus.text = "Level 7:\nUranus";
 uranus.textYOffset = 135;
 uranus.levelIndex = 7;
 
-neptune = instance_create_depth(1150, 200, 0, oPlanet);
+neptune = instance_create_depth(1150, 250, 0, oPlanet);
 neptune.sprite_index = s_neptune;
 neptune.text = "Level 8:\nNeptune";
-neptune.textYOffset = 130;
+neptune.textYOffset = 125;
 neptune.levelIndex = 8;
 
 if (!audio_is_playing(snd_1))
