@@ -28,14 +28,14 @@ if (!collision) {
 
 		// Move up
 		if (keyboard_check(vk_up)) {
-			physics_apply_local_force(0, 0, 0, thrust);
+			physics_apply_local_force(0, 0, 0, -thrust);
 			image_index = 1; 
 		}
 
 
 		// Move down
 		if (keyboard_check(vk_down)) {
-			physics_apply_local_force(0, 0, 0, -thrust);
+			physics_apply_local_force(0, 0, 0, thrust);
 			image_index = 1; 
 		}
 	}
