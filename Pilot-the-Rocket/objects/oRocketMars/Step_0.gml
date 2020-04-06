@@ -62,6 +62,7 @@ if(place_meeting(x, y, oBounds)) {
 if(place_meeting(x, y, oAsteroid)) {
 	collision = true;
 	success = false; 
+	image_index = s_explode;
 }
 
 
