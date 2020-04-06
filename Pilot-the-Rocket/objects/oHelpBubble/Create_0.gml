@@ -3,7 +3,7 @@
 
 text = "";
 
-if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel == 5) {
+if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel == 5 or global.currentLevel == 7) {
 	tryAgain = instance_create_depth(x - 47, y + 28, -101, oTryAgain);
 	tryAgain.image_xscale = 0.47;
 	tryAgain.image_yscale = 0.57;

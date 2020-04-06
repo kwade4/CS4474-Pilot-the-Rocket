@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "341b4ec6-3cdf-47d1-9ce8-8b024dab614c",
+            "Value": {
+                "id": "f2cb2e7e-b570-4db8-bb5e-3a5c482c9197",
+                "resourcePath": "objects\\oCameraUranus\\oCameraUranus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34f9432c-4a0d-4bb4-83a2-9e0d221aaa23",
             "Value": {
                 "id": "afc25c0a-d62e-4835-9408-82da9929b299",

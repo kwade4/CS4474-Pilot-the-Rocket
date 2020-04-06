@@ -1,9 +1,10 @@
 collision = false;
+oobCollision = false;
 diamonds = 0;
 success = false;
 alarmSet = false;
 fuel_amount = 150;
-
+aiWins = false;
 hsp=0;
 vsp=0;
 movespv = 2;

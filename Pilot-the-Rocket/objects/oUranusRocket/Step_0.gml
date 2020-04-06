@@ -47,8 +47,8 @@ if(!collision) {
 	
 	if(place_meeting(x,y,oDiamond)){
 		diamonds+=1;
-		movespv += 0.5;
-		movesph += 0.5;
+		movespv += 0.1;
+		movesph += 0.1;
 	}
 	if(place_meeting(x,y,oUranusRocks)){
 		collision = true;
@@ -59,6 +59,9 @@ if(!collision) {
 		collision = true;
 		x = x+sign(movesph);
 		success = true;
+	}
+	if(place_meeting(x, y, oBounds)){
+		oobCollision = true;	
 	}
 	if (vsp==0 && hsp!=0){
 		if(hsp<0){global.x_velocity=hsp*-1;}
@@ -73,10 +76,10 @@ if(!collision) {
 	
 }
 
-if(collision){
+if(collision or aiWins or oobCollision){
 	instance_deactivate_object(oUranusAI);
 		
-	if(success==true and !reachGoalAI){
+	if(success==true and !aiWins){
 		global.status=1; 
 		global.statusVisible=1;
 		global.paused = true;
@@ -96,7 +99,23 @@ if(collision){
 		global.status=0; 
 		global.statusVisible=1;
 		image_index=2;
-		room_restart();
-		//hud fail
+
+		global.paused = true;
+		//mission_success.image_index = 0;		// display X on HUD
+		if(fuel_amount == 0){
+			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
+		} else if collision {
+			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+		} else if aiWins {
+			text = "Oh no! The other ship beat you.\nTry again?"
+		} else {
+			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?"	
+		}
+		with(oHelpfulAstro){
+			tid = instance_create_depth(x + 70.5, y - 126, -100, oHelpBubble);
+			tid.image_xscale = 0.47;
+			tid.image_yscale = 0.57;
+			oHelpBubble.text = other.text;
+		}
 	}
 }

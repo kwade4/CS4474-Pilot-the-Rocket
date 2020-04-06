@@ -1,9 +1,6 @@
 image_index = 0;
 //aiPath = undefined;
 
-globalvar reachGoalAI;
-reachGoalAI = false;
-
 if(global.levelDifficulty==0){
 	path_start(pUranus, 1, path_action_stop, true);	
 }
