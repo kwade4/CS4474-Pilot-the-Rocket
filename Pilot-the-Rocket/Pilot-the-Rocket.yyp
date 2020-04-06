@@ -178,7 +178,7 @@
             "Key": "275ec3d5-7f75-4e3a-877d-b69c86bea6bb",
             "Value": {
                 "id": "2815569f-9782-4b72-bc8d-72f942e11ad8",
-                "resourcePath": "objects\\oSaveMeAstro\\oSaveMeAstro.yy",
+                "resourcePath": "objects\/oSaveMeAstro\/oSaveMeAstro.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -250,7 +250,7 @@
             "Key": "31783f07-7695-4432-ac62-da4c7b552ccd",
             "Value": {
                 "id": "188821c0-5007-4d2b-9564-6f1501a32418",
-                "resourcePath": "objects\\oWinBubble\\oWinBubble.yy",
+                "resourcePath": "objects\/oWinBubble\/oWinBubble.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "341b4ec6-3cdf-47d1-9ce8-8b024dab614c",
             "Value": {
                 "id": "f2cb2e7e-b570-4db8-bb5e-3a5c482c9197",
-                "resourcePath": "objects\\oCameraUranus\\oCameraUranus.yy",
+                "resourcePath": "objects\/oCameraUranus\/oCameraUranus.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -562,7 +562,7 @@
             "Key": "5c03432c-dff5-45ad-9a82-f60a91b3bdb1",
             "Value": {
                 "id": "e08d6377-e80c-4852-9b90-1c8d6cec3999",
-                "resourcePath": "objects\\oRope\\oRope.yy",
+                "resourcePath": "objects\/oRope\/oRope.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -818,7 +818,7 @@
             "Key": "823e77cb-ba14-412f-beef-58a923711ddd",
             "Value": {
                 "id": "61c8f64b-ec6b-4747-8ae4-34e695c3527b",
-                "resourcePath": "sounds\\mLvFailed\\mLvFailed.yy",
+                "resourcePath": "sounds\/mLvFailed\/mLvFailed.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -906,7 +906,7 @@
             "Key": "9397ee35-842f-408f-9b5a-b144840c52db",
             "Value": {
                 "id": "68d06fdc-2c2e-41cd-af66-70058654e59e",
-                "resourcePath": "sprites\\sSaveMeAstro\\sSaveMeAstro.yy",
+                "resourcePath": "sprites\/sSaveMeAstro\/sSaveMeAstro.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -916,6 +916,14 @@
                 "id": "11e5467b-b10f-4db1-a97b-137f228b3eab",
                 "resourcePath": "objects\/oAlien5\/oAlien5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "961a30b1-b18c-494d-a048-82a746db4022",
+            "Value": {
+                "id": "e1e9829c-00c2-4251-85bf-32b0cfaa94cb",
+                "resourcePath": "sounds\/snd_5\/snd_5.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1178,7 +1186,7 @@
             "Key": "bc8d4bfc-d182-4557-b17c-03d238d46ea2",
             "Value": {
                 "id": "a020a2ab-564e-40ae-9b94-d449c40d9843",
-                "resourcePath": "sprites\\sRope\\sRope.yy",
+                "resourcePath": "sprites\/sRope\/sRope.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1282,7 +1290,7 @@
             "Key": "c960913c-d2f0-453c-b8ff-4f86fa53809d",
             "Value": {
                 "id": "84c06391-7fa9-485b-bcba-19cf41c5a23a",
-                "resourcePath": "sounds\\mLvEndScreen\\mLvEndScreen.yy",
+                "resourcePath": "sounds\/mLvEndScreen\/mLvEndScreen.yy",
                 "resourceType": "GMSound"
             }
         },
