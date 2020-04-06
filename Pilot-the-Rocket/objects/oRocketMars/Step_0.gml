@@ -63,6 +63,7 @@ if(place_meeting(x, y, oAsteroid)) {
 	collision = true;
 	success = false; 
 	sprite_index = s_explode;
+	audio_play_sound(snd_4, 20, false);
 }
 
 

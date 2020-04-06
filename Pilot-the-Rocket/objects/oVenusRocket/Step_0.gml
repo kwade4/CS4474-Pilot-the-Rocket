@@ -61,6 +61,7 @@ if(collision) {
 	
 	else {
 		mission_success.image_index = 0;		// display X on HUD
+		audio_play_sound(snd_4, 20, false);
 	} 
 }
 
