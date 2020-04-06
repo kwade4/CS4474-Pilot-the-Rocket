@@ -54,7 +54,7 @@ jup_y_velo.value = phy_speed_y;
 
 //if rocket goes out of bounds, astronaut appears and says "Out of Bounds"	
 if(place_meeting(x, y, oBounds)) {
-	collision = true; 
+	oobCollision = true; 
 	success = false; 
 }
 
