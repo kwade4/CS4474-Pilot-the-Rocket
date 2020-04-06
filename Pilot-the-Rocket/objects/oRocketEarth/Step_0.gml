@@ -138,6 +138,7 @@ else{
 		
 		//rocket collided
 		if(success = true){
+			global.levels[2] = 1;
 			mission_success.image_index = 1;		// display checkmark on HUD
 			with(oHelpfulAstro){
 				instance_create_depth(x + 150, y - 222, -100, oWinBubble);

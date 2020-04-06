@@ -104,6 +104,7 @@ if(fuel_amount == 0 or global.SaturnHealth < 0) {
 
 
 if(x>room_width){
+	global.levels[7] = 1;
 	with(oHelpfulAstro){
 		instance_create_depth(x + 150, y - 222, -100, oWinBubble);
 		oWinBubble.text = "Mission Accomplished!\nLoading mission debrief...";

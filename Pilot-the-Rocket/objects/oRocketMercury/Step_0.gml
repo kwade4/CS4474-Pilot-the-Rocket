@@ -82,6 +82,7 @@ if(fuel_amount == 0 or collision or success or oobCollision) {
 		merc_y_velo.value = 0;
 		merc_x_velo.value = 0;
 		global.paused = true;
+		global.levels[3] = 1;
 		with(oHelpfulAstro){
 			tid = instance_create_depth(x + 70.5, y - 126, -100, oWinBubble);
 			tid.text = "Mission Accomplished!\nLoading mission debrief...";

@@ -86,6 +86,7 @@ if(collision or aiWins or oobCollision){
 	instance_deactivate_object(oUranusAI);
 		
 	if(success==true and !aiWins){
+		global.levels[8] = 1;
 		global.status=1; 
 		global.statusVisible=1;
 		global.paused = true;
