@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "17b43335-9f7a-459a-908f-5b60464144dc",
+            "Value": {
+                "id": "991f1cf0-437b-4b44-ac03-b9793dc16288",
+                "resourcePath": "objects\\oCheckChangeDiff\\oCheckChangeDiff.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1807cc87-ac52-4215-8e2f-793ff674937c",
             "Value": {
                 "id": "f0a2dd75-af1a-420f-bbdf-895cd621a0ff",
@@ -188,6 +196,14 @@
                 "id": "91284f00-153d-4439-a97e-9c9ca24fd2ee",
                 "resourcePath": "sprites\/s_SaturnRing2\/s_SaturnRing2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "28e64911-b62a-46e4-ac4d-087eeb027e0b",
+            "Value": {
+                "id": "ede1e8a8-c0de-4eeb-b428-465a5ca96934",
+                "resourcePath": "objects\\oChangeDiff\\oChangeDiff.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1139,6 +1155,14 @@
             "Value": {
                 "id": "f0301033-ae21-4c8b-b6eb-540d428b47a0",
                 "resourcePath": "objects\/oAstroExit\/oAstroExit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b50fa760-25ca-410d-90e9-54f3bf5bf20e",
+            "Value": {
+                "id": "4d1ec26c-fce3-4be2-9aa1-f76640a93150",
+                "resourcePath": "objects\\oActualChangeDiff\\oActualChangeDiff.yy",
                 "resourceType": "GMObject"
             }
         },

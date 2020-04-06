@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 image_index = 0;
-oActualExit.visible = false;
 oCheckExit.visible = false;
-oReturnPause.visible = false;
+oCheckChangeDiff.visible = false;
+instance_deactivate_object(oActualChangeDiff);
+instance_deactivate_object(oActualExit);
+instance_deactivate_object(oReturnPause);
 //global.checkExit = 0;
