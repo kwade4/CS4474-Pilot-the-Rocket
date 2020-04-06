@@ -48,13 +48,28 @@ if (!collision) {
 	}	
 }
 
-if(collision) {
-	if(touchEarth=false){
+if(place_meeting(x, y, oBounds)){
+	oobCollision = true;	
+}
+
+if(collision or oobCollision) {
+	if(!oobCollision && touchEarth=false){
 		success = true;
 		room_goto(rLvEndScreen);
 		//collided to docking station
 	}
 	else{
+		
+		if(oobCollision){
+			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
+		} else {
+			text = "Oh no! You've collided with Earth.\nTry again?";
+		}
+		
+		with(oHelpfulAstro){
+			tid = instance_create_depth(x + 70.5, y - 126, -100, oHelpBubble);
+			oHelpBubble.text = other.text;
+		}
 		success = false;
 		//collided to earth		
 	}

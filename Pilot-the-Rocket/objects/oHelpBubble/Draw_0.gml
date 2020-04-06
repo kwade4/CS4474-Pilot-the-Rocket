@@ -12,3 +12,4 @@ if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel 
 }
 draw_text(x, y - 25, text);
 draw_set_color(c_white);
+draw_set_font(-1);
