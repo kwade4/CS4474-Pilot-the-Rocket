@@ -8,7 +8,7 @@ else {
 	phy_rotation = (darccos(-phy_speed_y / phy_speed)) - 90;
 }
 	
-if (fuel_amount > 0) {
+if (fuel_amount > 0 and !rope) {
 		
 	// Decrease fuel amount for the hard level 
 	if (global.levelDifficulty == 2 && (keyboard_check(vk_right) || keyboard_check(vk_left) 
@@ -37,6 +37,10 @@ if (fuel_amount > 0) {
 	if (keyboard_check(vk_left)) {
 		physics_apply_force(x, y, -thrust, 0); 
 	}
+} else if (rope){
+	physics_pause_enable(true);
+	x = oSpaceStation.x + 78;
+	y = oSpaceStation.y + 140;
 }
 
 
@@ -63,14 +67,46 @@ if(place_meeting(x, y, oAsteroid)) {
 }
 
 if(place_meeting(x, y, oSpaceStation)) {
-	rope = true; 
+	rope = true;
+		if(!ropeMessage){
+			with(oHelpfulAstro){
+				tid = instance_create_depth(x + 70.5, y - 126, -100, oWinBubble);
+				tid.text = "You've successfully docked to the\nspace station. Angle yourself\nand press space to fire a rope\nand save your comrade!";
+				tid.image_xscale = 0.47;
+				tid.image_yscale = 0.57;
+				other.msgTid = tid;
+			}
+			ropeMessage = true;
+		}
+		
+		// Move Right 
+		if (keyboard_check(vk_right)) {						 
+			image_angle += 5
+		}
+	
+		// Move Left 
+		if (keyboard_check(vk_left)) {
+			image_angle -= 5
+		}
+		
+		if(keyboard_check(vk_space)){
+			if(!throwRope){
+				tidRope=instance_create_depth(x, y, 150, oRope);
+				tidRope.image_angle = image_angle;
+				tidRope.image_xscale = 0.47;
+				tidRope.image_yscale = 0.57
+				alarm[1] = 3;
+				instance_destroy(msgTid);
+			}
+		}
+
 }
 
-if(fuel_amount == 0 or collision or success or oobCollision) { 
+if(fuel_amount == 0 or collision or success or oobCollision or throwRope) { 
 	physics_pause_enable(true); 
 	mission_success = instance_create_depth(oGameHUD.x-32, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.45; 
-	mission_success.image_yscale = 0.45;  
+	mission_success.image_yscale = 0.45;
 	
 	if(success) {
 		mission_success.image_index = 1;		// display checkmark on HUD
@@ -97,6 +133,8 @@ if(fuel_amount == 0 or collision or success or oobCollision) {
 			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
 		} else if collision {
 			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+		} else if throwRope {
+			text = "Oh no! You had one shot,\none opportunity, but you let it slip.\nTry again?"
 		} else {
 			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?"	
 		}

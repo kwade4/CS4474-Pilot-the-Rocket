@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "275ec3d5-7f75-4e3a-877d-b69c86bea6bb",
+            "Value": {
+                "id": "2815569f-9782-4b72-bc8d-72f942e11ad8",
+                "resourcePath": "objects\\oSaveMeAstro\\oSaveMeAstro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "283fc0e2-1026-4add-8e8b-d25516cae09d",
             "Value": {
                 "id": "91284f00-153d-4439-a97e-9c9ca24fd2ee",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "5c03432c-dff5-45ad-9a82-f60a91b3bdb1",
+            "Value": {
+                "id": "e08d6377-e80c-4852-9b90-1c8d6cec3999",
+                "resourcePath": "objects\\oRope\\oRope.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5c486593-65de-45ed-a7e8-7a4f409321fd",
             "Value": {
                 "id": "67966963-781e-4f23-b82c-544d2804fcc0",
@@ -887,6 +903,14 @@
             }
         },
         {
+            "Key": "9397ee35-842f-408f-9b5a-b144840c52db",
+            "Value": {
+                "id": "68d06fdc-2c2e-41cd-af66-70058654e59e",
+                "resourcePath": "sprites\\sSaveMeAstro\\sSaveMeAstro.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95f64ce2-5cd2-4730-9a81-f01bee73859b",
             "Value": {
                 "id": "11e5467b-b10f-4db1-a97b-137f228b3eab",
@@ -1148,6 +1172,14 @@
                 "id": "296c3dca-2f8c-463c-bc03-766584046f71",
                 "resourcePath": "objects\/oAsteroid\/oAsteroid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc8d4bfc-d182-4557-b17c-03d238d46ea2",
+            "Value": {
+                "id": "a020a2ab-564e-40ae-9b94-d449c40d9843",
+                "resourcePath": "sprites\\sRope\\sRope.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

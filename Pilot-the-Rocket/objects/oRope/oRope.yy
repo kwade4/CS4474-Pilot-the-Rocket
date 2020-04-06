@@ -1,18 +1,28 @@
 {
-    "id": "6ac5443e-9c9a-4060-bad4-a200ba31ead2",
+    "id": "5c03432c-dff5-45ad-9a82-f60a91b3bdb1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oJupiter",
+    "name": "oRope",
     "eventList": [
         {
-            "id": "ff02ce90-8ab8-49f8-9bfa-40b503bd1254",
+            "id": "b7d6c547-281f-4f78-b5e6-9b5598f090ca",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "6ac5443e-9c9a-4060-bad4-a200ba31ead2"
+            "m_owner": "5c03432c-dff5-45ad-9a82-f60a91b3bdb1"
+        },
+        {
+            "id": "72f9809d-b74d-434e-baa5-3599ebd8012b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5c03432c-dff5-45ad-9a82-f60a91b3bdb1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
+    "spriteId": "bc8d4bfc-d182-4557-b17c-03d238d46ea2",
     "visible": true
 }

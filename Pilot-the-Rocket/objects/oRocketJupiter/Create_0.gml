@@ -10,3 +10,5 @@ success = false;
 alarmSet = false;
 fuel_amount = 150; 
 rope = false; 
+ropeMessage = false;
+throwRope = false;

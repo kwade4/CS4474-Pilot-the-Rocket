@@ -1,4 +1,4 @@
-if(!global.paused){
+if(!global.paused & !oRocketJupiter.rope){
 	follow = oRocketJupiter;
 	global.camX = x;
 	global.camY = y;

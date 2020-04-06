@@ -1,18 +1,18 @@
 {
-    "id": "6ac5443e-9c9a-4060-bad4-a200ba31ead2",
+    "id": "275ec3d5-7f75-4e3a-877d-b69c86bea6bb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oJupiter",
+    "name": "oSaveMeAstro",
     "eventList": [
         {
-            "id": "ff02ce90-8ab8-49f8-9bfa-40b503bd1254",
+            "id": "ddce372a-4d65-4f2f-9867-04666aa383a4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "6ac5443e-9c9a-4060-bad4-a200ba31ead2"
+            "m_owner": "275ec3d5-7f75-4e3a-877d-b69c86bea6bb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2c685b9a-6f7a-4aa4-a78d-27760898842a",
+    "spriteId": "9397ee35-842f-408f-9b5a-b144840c52db",
     "visible": true
 }
