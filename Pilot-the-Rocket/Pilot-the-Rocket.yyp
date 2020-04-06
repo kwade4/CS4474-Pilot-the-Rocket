@@ -34,7 +34,7 @@
             "Key": "014146ea-ec5a-4b6f-aa44-2dc37499df01",
             "Value": {
                 "id": "ad0774f2-9d30-41ea-9128-60b28a972f3d",
-                "resourcePath": "sprites\\sDiamonds\\sDiamonds.yy",
+                "resourcePath": "sprites\/sDiamonds\/sDiamonds.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "0641a164-1330-477e-9ce9-1ee1d3b9e9f0",
             "Value": {
                 "id": "2e4ee542-a234-4086-8959-c2063bad05ba",
-                "resourcePath": "sprites\\sHUD\\sHUD.yy",
+                "resourcePath": "sprites\/sHUD\/sHUD.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -130,7 +130,7 @@
             "Key": "1bfc8715-a5b5-469e-bf61-87c07e8312af",
             "Value": {
                 "id": "28e73f1e-22f0-4f14-9676-77f47185e893",
-                "resourcePath": "paths\\pUranus\\pUranus.yy",
+                "resourcePath": "paths\/pUranus\/pUranus.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2393df25-e6fd-4af7-8a6b-b1ed7e4af811",
+            "Value": {
+                "id": "78f58e6d-bc67-40a3-874c-ab76f55c58dc",
+                "resourcePath": "sounds\/snd_1\/snd_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "258679cf-3895-4168-8028-28c1966d7b54",
             "Value": {
                 "id": "b380b9c5-45f3-4d0e-acc4-efc2e353740b",
@@ -178,7 +186,7 @@
             "Key": "2b964632-591e-4b90-ab5a-7606994baec8",
             "Value": {
                 "id": "77fdb07f-7dc8-48eb-92ee-520f9018d652",
-                "resourcePath": "objects\\oDiamondM\\oDiamondM.yy",
+                "resourcePath": "objects\/oDiamondM\/oDiamondM.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -282,7 +290,7 @@
             "Key": "3c1cb4ef-0b32-44eb-911f-2e08b86ed79f",
             "Value": {
                 "id": "b4f417d6-b5ca-4daa-89f3-4df67041490e",
-                "resourcePath": "objects\\oDrawHUD\\oDrawHUD.yy",
+                "resourcePath": "objects\/oDrawHUD\/oDrawHUD.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -418,7 +426,7 @@
             "Key": "4c379395-ab84-44ae-9d32-2fc0f761cf51",
             "Value": {
                 "id": "a888eb88-55d2-475f-84f2-4be9b72dcf32",
-                "resourcePath": "objects\\oAlienProgressBar\\oAlienProgressBar.yy",
+                "resourcePath": "objects\/oAlienProgressBar\/oAlienProgressBar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -474,7 +482,7 @@
             "Key": "556f4ec4-d27f-4ce0-9887-3599837cac63",
             "Value": {
                 "id": "3462a975-26f1-4853-9564-4802b0a74dfc",
-                "resourcePath": "sprites\\sEasyAlienBar\\sEasyAlienBar.yy",
+                "resourcePath": "sprites\/sEasyAlienBar\/sEasyAlienBar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -570,7 +578,7 @@
             "Key": "651ce476-c802-4175-a840-0d79b1d8dce6",
             "Value": {
                 "id": "14e4bc97-2c0b-4e5f-b429-203b16f5ddbe",
-                "resourcePath": "fonts\\scaledFont\\scaledFont.yy",
+                "resourcePath": "fonts\/scaledFont\/scaledFont.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -730,7 +738,7 @@
             "Key": "7b505396-58fe-4ba5-8ebe-edf20c99cbe7",
             "Value": {
                 "id": "f192084c-0554-4db0-a8db-a0b4c7c4aa2a",
-                "resourcePath": "objects\\oUranusGrid\\oUranusGrid.yy",
+                "resourcePath": "objects\/oUranusGrid\/oUranusGrid.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -754,7 +762,7 @@
             "Key": "7f458b50-358b-4c8f-9127-3cb18e4d5d07",
             "Value": {
                 "id": "5f9bed4c-a566-4187-8e96-d6572eb38f51",
-                "resourcePath": "objects\\oUranusRocks\\oUranusRocks.yy",
+                "resourcePath": "objects\/oUranusRocks\/oUranusRocks.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -770,7 +778,7 @@
             "Key": "8401b99b-c636-4a65-944a-a182b808b99f",
             "Value": {
                 "id": "36140e04-8296-44c8-9d83-69e1e5174fff",
-                "resourcePath": "objects\\object80\\object80.yy",
+                "resourcePath": "objects\/object80\/object80.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -866,7 +874,7 @@
             "Key": "9a701037-1642-4960-b04d-ed21fa5735c1",
             "Value": {
                 "id": "cc324f45-ae49-45c7-a758-513b0701f1de",
-                "resourcePath": "objects\\oUranusRocket\\oUranusRocket.yy",
+                "resourcePath": "objects\/oUranusRocket\/oUranusRocket.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -874,7 +882,7 @@
             "Key": "9bb4a14b-d06e-411e-a211-cfbd19f77e3b",
             "Value": {
                 "id": "39efe8dc-95be-4de7-9ad8-85afd0b777c3",
-                "resourcePath": "sprites\\sMHAlienBar\\sMHAlienBar.yy",
+                "resourcePath": "sprites\/sMHAlienBar\/sMHAlienBar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -882,7 +890,7 @@
             "Key": "9ca25c41-ae1f-4109-9703-ccb34be7705f",
             "Value": {
                 "id": "aa099e58-91ab-474e-8f13-128b3d4f7338",
-                "resourcePath": "objects\\oUranusAI\\oUranusAI.yy",
+                "resourcePath": "objects\/oUranusAI\/oUranusAI.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -970,7 +978,7 @@
             "Key": "aa79b1e3-5e5d-4ac0-b08f-6f7487c3364c",
             "Value": {
                 "id": "c5b8c035-910d-4cec-9f54-ce476d6ce21d",
-                "resourcePath": "sprites\\sHealthBar\\sHealthBar.yy",
+                "resourcePath": "sprites\/sHealthBar\/sHealthBar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1058,7 +1066,7 @@
             "Key": "b64bf4b0-2f97-49e0-b56e-0d17df04e960",
             "Value": {
                 "id": "e6f7c047-45ea-4a43-b07f-c0c75ce437bf",
-                "resourcePath": "sprites\\sAI\\sAI.yy",
+                "resourcePath": "sprites\/sAI\/sAI.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1114,7 +1122,7 @@
             "Key": "bfe53198-b997-4f65-b6d3-dc9156783bb4",
             "Value": {
                 "id": "9c7737e8-86fa-4c1f-9a0a-7f1478b81052",
-                "resourcePath": "sprites\\s_HelpfulAstro\\s_HelpfulAstro.yy",
+                "resourcePath": "sprites\/s_HelpfulAstro\/s_HelpfulAstro.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1146,7 +1154,7 @@
             "Key": "c29446f9-28f0-439b-906e-7bb95aa4861e",
             "Value": {
                 "id": "b291b752-717d-4511-b45a-d63593572776",
-                "resourcePath": "objects\\oHealthBar\\oHealthBar.yy",
+                "resourcePath": "objects\/oHealthBar\/oHealthBar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1218,7 +1226,7 @@
             "Key": "cf2e4c81-1a0a-4c26-84bd-46d427a420d4",
             "Value": {
                 "id": "3a4b81df-8044-4427-a43d-50a5ef66cef4",
-                "resourcePath": "objects\\oDiamond\\oDiamond.yy",
+                "resourcePath": "objects\/oDiamond\/oDiamond.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1266,7 +1274,7 @@
             "Key": "d23238fe-a975-4a8b-8201-171147db383b",
             "Value": {
                 "id": "11d15763-2067-4fa5-baf5-c47a6ef58645",
-                "resourcePath": "sprites\\s_SolarW\\s_SolarW.yy",
+                "resourcePath": "sprites\/s_SolarW\/s_SolarW.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1346,7 +1354,7 @@
             "Key": "e2f6af4c-1c58-4061-881d-cb0dc78fbd4d",
             "Value": {
                 "id": "f59175a4-1972-4133-80ed-24a76c91eda9",
-                "resourcePath": "sprites\\sBorder\\sBorder.yy",
+                "resourcePath": "sprites\/sBorder\/sBorder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1364,6 +1372,14 @@
                 "id": "f784c544-2c9e-45cb-869a-bef678d4f2ae",
                 "resourcePath": "views\/e607aca2-7e50-45cf-bf3d-38472b571fab.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e61d0c03-c380-4d23-83f5-20206f802541",
+            "Value": {
+                "id": "0d290698-de57-4d1a-8589-6146c75cb660",
+                "resourcePath": "sounds\/snd_2\/snd_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1394,7 +1410,7 @@
             "Key": "eb73cf68-b8ad-4080-ab0d-843b166b6a47",
             "Value": {
                 "id": "7f0f07ac-a8bc-4e36-b2fb-d3432762bbdc",
-                "resourcePath": "objects\\oDiamondH\\oDiamondH.yy",
+                "resourcePath": "objects\/oDiamondH\/oDiamondH.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1610,7 +1626,7 @@
             "Key": "fff756f4-a6f4-402d-a15b-8f7693ab50f9",
             "Value": {
                 "id": "9d54e167-813b-4f86-97be-f7f7faa15e72",
-                "resourcePath": "objects\\oUranus\\oUranus.yy",
+                "resourcePath": "objects\/oUranus\/oUranus.yy",
                 "resourceType": "GMObject"
             }
         }
