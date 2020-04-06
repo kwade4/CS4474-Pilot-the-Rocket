@@ -62,9 +62,9 @@ if(place_meeting(x, y, oBounds)) {
 // If the rocket collides with the asteroid
 if(place_meeting(x, y, oAsteroid)) {
 	collision = true;
-	success = false; 
-	sprite_index = s_explode;
+	success = false;
 	audio_play_sound(snd_4, 20, false);
+	sprite_index = s_explode;
 }
 
 if(place_meeting(x, y, oMercury)) {
@@ -101,7 +101,7 @@ if(fuel_amount == 0 or collision or success or oobCollision) {
 		if(fuel_amount == 0){
 			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
 		} else if collision {
-			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+			text = "Oh no! You've collided with\nan asteroid. Try again?"
 		} else {
 			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?"	
 		}

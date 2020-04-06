@@ -4,7 +4,7 @@ if(!resumeRoom){
 	resumeRoom=true;
 	room_restart();
 }
-if (fuel_amount > 0 { 
+if (fuel_amount > 0) { 
 	key_left = keyboard_check(vk_left); //checks if virtual keyboard left is pressed
 	key_right = keyboard_check(vk_right);
 	var moveh = key_right - key_left;
