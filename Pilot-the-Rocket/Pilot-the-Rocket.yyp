@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "31783f07-7695-4432-ac62-da4c7b552ccd",
+            "Value": {
+                "id": "188821c0-5007-4d2b-9564-6f1501a32418",
+                "resourcePath": "objects\\oWinBubble\\oWinBubble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "31ab3951-8a01-4ddf-b646-61bfb3589e08",
             "Value": {
                 "id": "4196e060-7e34-43b0-84d3-524dc9135ac6",

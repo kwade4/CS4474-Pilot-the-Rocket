@@ -135,9 +135,17 @@ else{
 		
 		//rocket collided
 		if(success = true){
-			mission_success.image_index = 1;		// display checkmark on HUD 
-			room_goto(rLvEndScreen);
-			
+			mission_success.image_index = 1;		// display checkmark on HUD
+			with(oHelpfulAstro){
+				instance_create_depth(x + 150, y - 222, -100, oWinBubble);
+				oWinBubble.text = "Mission Accomplished!\nLoading mission debrief...";
+			}
+		
+			if(!alarmSet){
+				alarm[0] = room_speed * 3;
+				alarmSet = true;
+			}
+
 		}else{
 			mission_success.image_index = 0;		// display X on HUD
 			global.paused = true;

@@ -2,6 +2,7 @@ fuel_amount = 150;
 thrust = 10; 
 
 cooldown = 10;
+alarmSet = false;
 //physics_mass_properties(1, x, y, 1);
 
 movesph = 0;
