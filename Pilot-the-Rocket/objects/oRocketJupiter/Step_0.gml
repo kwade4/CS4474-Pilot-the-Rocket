@@ -137,7 +137,8 @@ if(fuel_amount == 0 or collision or success or oobCollision or throwRope) {
 		if(fuel_amount == 0){
 			text = "Oh no! You've run out of\nfuel before collecing all\nthe aliens. Try again?"
 		} else if collision {
-			text = "Oh no! You've collided with\nan asteroid. Try again?"	
+			text = "Oh no! You've collided with\nan asteroid. Try again?"
+			audio_stop_sound(snd_4);
 		} else if throwRope {
 			text = "Oh no! You had one shot,\none opportunity, but you let it slip.\nTry again?"
 		} else {
