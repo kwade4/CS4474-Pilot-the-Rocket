@@ -583,14 +583,6 @@
             }
         },
         {
-            "Key": "67f8b0c5-6f37-4c73-9b82-76399e202047",
-            "Value": {
-                "id": "dbae5eac-86c4-4779-965e-5da274deb7c9",
-                "resourcePath": "objects\/oEarthRocket\/oEarthRocket.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6918874d-c907-4d8a-82d0-3f0d80346b8a",
             "Value": {
                 "id": "e8aa31c1-9cdc-4f7c-9562-c47a4a7f1505",
