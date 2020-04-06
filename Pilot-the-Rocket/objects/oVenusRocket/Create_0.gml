@@ -7,3 +7,5 @@ alarmSet = false;
 level_finished = false; 
 
 time_to_next_level = 0;
+
+global.resumeRoom = true;

@@ -1,3 +1,8 @@
+if(!resumeRoom){
+	resumeRoom=true;
+	room_restart();
+}
+
 if (global.fuel<=0&&global.levelDifficulty==2){room_goto(rLvEndScreen);
 	}
 if(!collision) {

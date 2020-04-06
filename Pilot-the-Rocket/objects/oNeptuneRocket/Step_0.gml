@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(!resumeRoom){
+	resumeRoom=true;
+	room_restart();
+}
 
 key_left = keyboard_check(vk_left); //checks if virtual keyboard left is pressed
 key_right = keyboard_check(vk_right);

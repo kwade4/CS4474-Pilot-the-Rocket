@@ -12,3 +12,5 @@ success = false;
 alarmSet = false;
 fuel_amount = 150; 
 boom = 0;
+
+global.resumeRoom = true;

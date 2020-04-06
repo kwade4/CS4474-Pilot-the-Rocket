@@ -1,3 +1,8 @@
+if(!resumeRoom){
+	global.resumeRoom = true;
+	room_restart();
+}//if room visited and it's not from resume, reset room
+
 image_index = 0;		// Rocket with no flames 
 	
 if (phy_speed == 0) {

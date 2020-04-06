@@ -9,3 +9,5 @@ oobCollision = false;
 success = false; 
 
 fuel_amount = 150; 
+
+global.resumeRoom = true;
