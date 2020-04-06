@@ -64,7 +64,7 @@ if(place_meeting(x, y, oMercury)) {
 	success = true; 
 }
 
-if(fuel_amount == 0 or collision or success) { 
+if(fuel_amount == 0 or collision or success or oobCollision) { 
 	physics_pause_enable(true); 
 	mission_success = instance_create_depth(oGameHUD.x-32, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_xscale = 0.45; 
