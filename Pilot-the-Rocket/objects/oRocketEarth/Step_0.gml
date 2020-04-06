@@ -44,7 +44,7 @@ if(!takeoff){
 	}
 }
 else{
-	if (!collision) {
+	if (!collision and !oobCollision) {
 	image_index = 0;		// Rocket with no flames 
 	
 		if (fuel_amount > 0) {
@@ -91,7 +91,7 @@ else{
 		}
 		if(place_meeting(x,y,oBounds)){
 			success = false;
-			collision = true;
+			oobCollision = true;
 		}
 		if(place_meeting(x,y,oEarth)){
 			success = false;
@@ -103,38 +103,17 @@ else{
 		if(success = true){
 			room_goto(rLvEndScreen);
 		}else{
-			room_restart();
-		}
-	}
-}
-/*
-if(place_meeting(x, y, )
-
-if(place_meeting(x, y, oBounds)){
-	oobCollision = true;	
-}
-
-if(collision or oobCollision) {
-	if(!oobCollision && touchEarth=false){
-		success = true;
-		room_goto(rLvEndScreen);
-		//collided to docking station
-	}
-	else{
+			global.paused = true;
+			if(oobCollision){
+				text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
+			} else {
+				text = "Oh no! You've collided with Earth.\nTry again?";
+			}
 		
-		if(oobCollision){
-			text = "Oh no! You've gone too far\n - we've lost contact.\nTry again?";
-		} else {
-			text = "Oh no! You've collided with Earth.\nTry again?";
+			with(oHelpfulAstro){
+				instance_create_depth(x + 150, y - 222, -100, oHelpBubble);
+				oHelpBubble.text = other.text;
+			}
 		}
-		
-		with(oHelpfulAstro){
-			tid = instance_create_depth(x + 70.5, y - 126, -100, oHelpBubble);
-			oHelpBubble.text = other.text;
-		}
-		success = false;
-		room_restart();
-		//collided to earth		
 	}
 }
-*/
