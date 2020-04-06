@@ -8,9 +8,9 @@ if(global.levelDifficulty = 0){
 }
 else if(global.levelDifficulty = 1){
 	image_index = 0;
-	damage = 0.1;
+	damage = 0.075;
 }
 else{
 	image_index = 0;
-	damage = 0.15;
+	damage = 0.1;
 }
