@@ -1,3 +1,7 @@
+draw_set_halign(-1);
+draw_set_valign(-1);
+draw_set_font(fLevelSelect);	
+
 earth = instance_create_depth(200, 150, 0, oPlanet);
 earth.sprite_index = s_earth;
 earth.text = "Level 1:\nEarth";
