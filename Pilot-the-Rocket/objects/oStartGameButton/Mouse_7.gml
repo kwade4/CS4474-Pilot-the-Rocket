@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 image_index = 0;
+audio_stop_sound(snd_1);
 
 if(global.currentLevel == 1){
 	room_goto(rEarth);

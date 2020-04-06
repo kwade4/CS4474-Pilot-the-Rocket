@@ -1223,6 +1223,14 @@
             }
         },
         {
+            "Key": "c960913c-d2f0-453c-b8ff-4f86fa53809d",
+            "Value": {
+                "id": "84c06391-7fa9-485b-bcba-19cf41c5a23a",
+                "resourcePath": "sounds\\mLvEndScreen\\mLvEndScreen.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cb0f58d4-18c4-41d2-9802-9b5f22ac6f1e",
             "Value": {
                 "id": "cb6af619-5e55-4f03-aa3e-18ecb88696dd",
