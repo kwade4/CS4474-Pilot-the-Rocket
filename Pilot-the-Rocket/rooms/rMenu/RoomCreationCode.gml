@@ -46,3 +46,4 @@ neptune.text = "Level 8:\nNeptune";
 neptune.textYOffset = 130;
 neptune.levelIndex = 8;
 
+audio_stop_sound(snd_1);
