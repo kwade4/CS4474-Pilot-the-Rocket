@@ -30,3 +30,21 @@ if(!global.paused & !oRocketJupiter.rope){
 	oSettingsButton.y = y - halfViewHeight + 40;
 	oSettingsButton.x = x - halfViewWidth + 550;
 }
+if(oRocketJupiter.rope and !camLocked){
+	x =	680;
+	y = 250;
+	
+	x = clamp(x, halfViewWidth, room_width - halfViewWidth);
+	y = clamp(y, halfViewHeight, room_height - halfViewHeight);
+	
+	camera_set_view_pos(mainCamera, x, y);
+	oGameHUD.y = y + 359;
+	oGameHUD.x = x + 288; 
+
+	oHelpfulAstro.y = y + 340;
+	oHelpfulAstro.x = x + 50;
+	
+	oSettingsButton.y = y - halfViewHeight + 40;
+	oSettingsButton.x = x - halfViewWidth + 550;
+	camLocked = true;
+}

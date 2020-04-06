@@ -6,3 +6,4 @@ halfViewHeight = camera_get_view_height(mainCamera) * 0.5;
 xTo = x;
 yTo = y;
 
+camLocked = false;
