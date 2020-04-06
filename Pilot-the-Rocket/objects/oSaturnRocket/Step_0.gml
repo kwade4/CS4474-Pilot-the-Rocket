@@ -104,6 +104,12 @@ if(fuel_amount == 0 or global.SaturnHealth < 0) {
 
 
 if(x>room_width){
+	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
+	mission_success.image_index = 1;		// display checkmark on HUD
+	saturn_y_velo.value = 0;
+	saturn_x_velo.value = 0; 
+	mission_success.image_xscale = 0.9; 
+	mission_success.image_yscale = 0.9; 
 	global.levels[7] = 1;
 	with(oHelpfulAstro){
 		instance_create_depth(x + 150, y - 222, -100, oWinBubble);
