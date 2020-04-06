@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "823e77cb-ba14-412f-beef-58a923711ddd",
+            "Value": {
+                "id": "61c8f64b-ec6b-4747-8ae4-34e695c3527b",
+                "resourcePath": "sounds\\mLvFailed\\mLvFailed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8401b99b-c636-4a65-944a-a182b808b99f",
             "Value": {
                 "id": "36140e04-8296-44c8-9d83-69e1e5174fff",
