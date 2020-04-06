@@ -3,8 +3,9 @@
 
 globalvar resumeRoom;
 resumeRoom = true;
-image_index = 0;
-room_goto(global.currentRoom)
+image_index = 0;	
+room_goto(global.currentRoom);
+audio_stop_sound(snd_2);
 //global.pause = 1;
 /*
 if(global.currentLevel == 1){

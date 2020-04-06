@@ -1,6 +1,6 @@
 draw_set_halign(-1);
 draw_set_valign(-1);
-draw_set_font(fLevelSelect);	
+draw_set_font(fLevelSelect);
 
 earth = instance_create_depth(200, 150, 0, oPlanet);
 earth.sprite_index = s_earth;
@@ -50,6 +50,7 @@ neptune.text = "Level 8:\nNeptune";
 neptune.textYOffset = 125;
 neptune.levelIndex = 8;
 
+audio_stop_sound(snd_2);
 if (!audio_is_playing(snd_1))
 {
 	audio_play_sound(snd_1, 10, true);

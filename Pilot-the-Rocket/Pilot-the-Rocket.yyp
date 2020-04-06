@@ -754,7 +754,7 @@
             "Key": "70067a1d-b5b4-4b16-b270-7f6965ed716c",
             "Value": {
                 "id": "e10f75b6-5436-42e5-bc3a-603d2f16e7bf",
-                "resourcePath": "sprites\\sprite84\\sprite84.yy",
+                "resourcePath": "sprites\\s_soundButton\\s_soundButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -892,6 +892,14 @@
                 "id": "c42328bb-0405-4331-af6c-577089ac9ba7",
                 "resourcePath": "views\/850f84c6-4260-4810-aa3f-bc418a9545d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "85ae207d-f229-4413-8164-142361468d04",
+            "Value": {
+                "id": "5ff78e9f-de35-48d8-bc44-095a4e6ff293",
+                "resourcePath": "objects\\oSoundButton\\oSoundButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
