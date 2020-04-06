@@ -65,8 +65,7 @@ if(!collision) {
 
 if(collision){
 	instance_deactivate_object(oUranusAI);
-	
-	
+		
 	if(success==true and !reachGoalAI){
 		global.status=1; 
 		global.statusVisible=1;
@@ -76,6 +75,7 @@ if(collision){
 		global.status=0; 
 		global.statusVisible=1;
 		image_index=2;
+		room_restart();
 		//hud fail
 	}
 }
