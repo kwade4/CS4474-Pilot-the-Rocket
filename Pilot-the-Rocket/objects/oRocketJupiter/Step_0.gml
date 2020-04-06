@@ -74,13 +74,7 @@ if(place_meeting(x, y, oAsteroid)) {
 if(place_meeting(x, y, oSpaceStation)) {
 	rope = true;
 		if(!ropeMessage){
-			with(oHelpfulAstro){
-				tid = instance_create_depth(x + 70.5, y - 126, -100, oWinBubble);
-				tid.text = "You've successfully docked to the\nspace station. Angle yourself\nand press space to fire a rope\nand save your comrade!";
-				tid.image_xscale = 0.47;
-				tid.image_yscale = 0.57;
-				other.msgTid = tid;
-			}
+			alarm[2] = 3;
 			ropeMessage = true;
 		}
 		
