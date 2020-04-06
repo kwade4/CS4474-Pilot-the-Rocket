@@ -4,7 +4,7 @@
 //global.pause = 0;
 global.paused = false;
 
-if (global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel == 5 or global.currentLevel ==7) {
+if ((global.currentLevel == 2 or global.currentLevel == 4 or global.currentLevel == 5 or global.currentLevel ==7) and room != rMenu) {
 	image_xscale = 0.47; 
 	image_yscale = 0.57;
 } else {
