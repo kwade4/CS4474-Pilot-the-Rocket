@@ -14,3 +14,5 @@ global.status=0;
 global.statusVisible=0;
 global.x_velocity=0;
 global.y_velocity=0;
+
+global.resumeRoom = true;

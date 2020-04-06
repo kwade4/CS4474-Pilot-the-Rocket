@@ -10,3 +10,5 @@ alarmSet = false;
 hsp = 0; //horizontal speed 
 vsp = 0; //vertical speed
 mvSp = 4;
+
+global.resumeRoom = true;

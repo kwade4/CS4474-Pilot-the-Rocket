@@ -1,3 +1,8 @@
+if(!resumeRoom){
+	resumeRoom=true;
+	room_restart();
+}
+
 image_index = 0;		// Rocket with no flames 
 	
 if (phy_speed == 0) {
