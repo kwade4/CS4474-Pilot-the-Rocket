@@ -57,7 +57,9 @@ if(place_meeting(x, y, oBounds)) {
 // If the rocket collides with the asteroid
 if(place_meeting(x, y, oAsteroid)) {
 	collision = true;
-	success = false; 
+	success = false;
+	sprite_index = s_explode;
+	audio_play_sound(snd_4, 20, false);
 }
 
 if(place_meeting(x, y, oSpaceStation)) {

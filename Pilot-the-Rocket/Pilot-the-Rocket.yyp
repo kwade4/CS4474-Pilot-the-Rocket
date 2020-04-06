@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "31c2ac77-b5aa-489c-ae18-7513f5a8f825",
+            "Value": {
+                "id": "778211f2-e780-40d2-b302-968d9f6fc86a",
+                "resourcePath": "sprites\/s_explode\/s_explode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32a68cb6-018e-4e28-bddb-a44609c65438",
             "Value": {
                 "id": "217d8d30-0381-4d45-923b-924803ce2ba3",
@@ -599,14 +607,6 @@
             }
         },
         {
-            "Key": "67f8b0c5-6f37-4c73-9b82-76399e202047",
-            "Value": {
-                "id": "dbae5eac-86c4-4779-965e-5da274deb7c9",
-                "resourcePath": "objects\/oEarthRocket\/oEarthRocket.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "6918874d-c907-4d8a-82d0-3f0d80346b8a",
             "Value": {
                 "id": "e8aa31c1-9cdc-4f7c-9562-c47a4a7f1505",
@@ -908,6 +908,14 @@
                 "id": "dd7d150b-cd1e-4573-b96d-ec473e3fb1e3",
                 "resourcePath": "sprites\/s_NeptuneItems\/s_NeptuneItems.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e6b3413-221c-4cf0-b738-8fc9d7abb94b",
+            "Value": {
+                "id": "1bee5e80-1e30-4eda-aead-46daf3867ac6",
+                "resourcePath": "sounds\/snd_4\/snd_4.yy",
+                "resourceType": "GMSound"
             }
         },
         {
