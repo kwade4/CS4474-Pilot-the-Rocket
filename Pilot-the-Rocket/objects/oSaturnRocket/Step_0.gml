@@ -66,8 +66,8 @@ saturn_y_velo.value = phy_speed_y;
 // If there is a collision 
 if(place_meeting(x,y,oSaturnRing1) or place_meeting(x,y,oSaturnRing2) or 
 	place_meeting(x,y,oSaturnRing3) or place_meeting(x,y,oSaturnRing4)){
-
-	sprite_index = s_hotRocket;	
+	audio_play_sound(snd_5,11,false);
+	sprite_index = s_hotRocket;
 }
 
 else{
