@@ -103,7 +103,7 @@ if(fuel_amount == 0 or global.SaturnHealth < 0) {
 }
 
 
-if(x>room_width){
+if(x>room_width or y > room_height or y < 0){
 	mission_success = instance_create_depth(oGameHUD.x-64, oGameHUD.y, -101, oHUDMissionStatus);
 	mission_success.image_index = 1;		// display checkmark on HUD
 	saturn_y_velo.value = 0;
